@@ -7,6 +7,31 @@
 
 import UIKit
 
+enum FastFoodMenuItem {
+    case hamburger(numberOfPatties: Int)
+    case fries(size: FryOrderSize)
+    case drink(String, ounces: Int)
+    case cookie
+    func isIncludedInSpecialOrder(number: Int) -> Bool {
+        switch self {
+            case .hamburger(let pattyCount): return pattyCount == number
+            case .fries, .cookie: return true
+            case .drink(_, let ounces): return ounces == 16
+        }
+    }
+    var calories: Int {
+        return 1-2
+    }
+    mutating func switchToBeingACookie() {
+        self = .hamburger(numberOfPatties: 20)
+    }
+}
+
+enum FryOrderSize {
+    case large
+    case small
+}
+
 class ViewController: UIViewController {
     
     private lazy var game = Concentration(numberOfPairsOfCards: numberOfPairsOfCards)
@@ -25,7 +50,53 @@ class ViewController: UIViewController {
 //    var emojiChoices = ["🐶", "🐹", "🐶", "🐹"]
     override func viewDidLoad() {
         super.viewDidLoad()
+//        testEnum()
+        testOptionals()
         // Do any additional setup after loading the view.
+    }
+    
+    func testEnum() -> Void {
+        let menuItem: FastFoodMenuItem = FastFoodMenuItem.hamburger(numberOfPatties: 10)
+//        switch menuItem {
+//        case FastFoodMenuItem.hamburger:
+//            print("burger")
+//        case FastFoodMenuItem.fries:
+//            print("fries")
+//        case FastFoodMenuItem.drink:
+//            print("drink")
+//        case FastFoodMenuItem.cookie:
+//            print("cookie")
+//        }
+        switch menuItem {
+        case .hamburger:
+            print("burger")
+        case .fries:
+            print("fries")
+        case .drink:
+            print("drink")
+        case .cookie:
+            print("cookie")
+        }
+        
+        switch menuItem {
+        case .hamburger(let pattyCount):
+            print("a burger with \(pattyCount) patties!")
+        case .fries(let size):
+            print("a \(size) order of fries!")
+        case .drink(let brand, let ounces):
+            print("a \(ounces)oz \(brand)")
+        default:
+            print("cookies")
+        }
+        if case .cookie = menuItem {
+            
+        }
+    }
+    
+    func testOptionals() -> Void {
+        var hello: String?
+        hello = "nihao"
+        print(hello!)
     }
 
     @IBAction private func touchCard(_ sender: UIButton) {

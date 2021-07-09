@@ -3,4 +3,29 @@
    uuid = "D6711A60-9CA9-4BDF-B901-A188A5ECC89B"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "FC2F1B54-42F4-41D7-8590-365BC96FE163"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "_dyld_start"
+            moduleName = "dyld">
+            <Locations>
+               <Location
+                  uuid = "FC2F1B54-42F4-41D7-8590-365BC96FE163 - 3c35a2dfe7dc7465"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_dyld_start"
+                  moduleName = "dyld"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
