@@ -7,10 +7,12 @@
 
 import Foundation
 
-class Concentration
+struct Concentration
 {
+    /// 在结构体中，这个cards对外是只读的，对内是可写的
     var cards = [Card]()
     
+    /// 这个变量，是因为有set和get方法，所以系统知道他是可变的，不需要加mutating
     var indexOfOneAndOnlyFaceUpCard: Int? {
         get {
             var foundIndex: Int?
@@ -32,7 +34,7 @@ class Concentration
         }
     }
     
-    func chooseCard(at index: Int) -> Void {
+    mutating func chooseCard(at index: Int) -> Void {
         if !cards[index].isMatched {
             if let matchIndex = indexOfOneAndOnlyFaceUpCard, matchIndex != index {
                 if cards[matchIndex].identifier == cards[index].identifier {
