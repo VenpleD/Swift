@@ -80,11 +80,11 @@ static NSInteger cellCount = 10;
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
-    NSLog(@"next--scrollView'tag is %@, offsetY :%@", @(scrollView.tag), @(scrollView.contentOffset.y));
+//    NSLog(@"next--scrollView'tag is %@, offsetY :%@", @(scrollView.tag), @(scrollView.contentOffset.y));
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    NSLog(@"scrollViewTag:%@,offsetY:%@", @(scrollView.tag), @(scrollView.contentOffset.y));
+//    NSLog(@"scrollViewTag:%@,offsetY:%@", @(scrollView.tag), @(scrollView.contentOffset.y));
 }
 
 

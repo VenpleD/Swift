@@ -85,4 +85,8 @@ static NSString *_containerPullDown = nil;
     return [self nested];
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    NSLog(@"touchbegin:%@", @(self.tag));
+}
+
 @end
