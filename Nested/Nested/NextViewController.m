@@ -12,6 +12,8 @@
 
 @property (nonatomic, strong) UITableView *tableView;
 
+@property (nonatomic, strong) UIScrollView *randomScrollView;
+
 @end
 
 static NSInteger cellCount = 10;
@@ -34,8 +36,20 @@ static NSInteger cellCount = 10;
             self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
         }
     [self.tableView setNested:YES];
+    [self.tableView setHoverPositionY:100];
     [self.view addSubview:self.tableView];
+    self.randomScrollView = self.tableView;
+    UIButton *randomOffsetButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    randomOffsetButton.frame = CGRectMake(CGRectGetWidth(self.view.frame) - 100, 20, 100, 30);
+    [randomOffsetButton setBackgroundColor:[UIColor redColor]];
+    [randomOffsetButton setTitle:@"randomOffsetY" forState:UIControlStateNormal];
+    [randomOffsetButton addTarget:self action:@selector(randomOffsetY) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:randomOffsetButton];
     // Do any additional setup after loading the view.
+}
+
+- (void)randomOffsetY {
+    self.randomScrollView.contentOffset = CGPointMake(0, arc4random() % 100);
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

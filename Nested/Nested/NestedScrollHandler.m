@@ -77,29 +77,9 @@
     }
 }
 
-//- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
-//    if (![scrollView isEqual:self.containerScrollViewDelegate.scrollView]) {
-//        self.currentSubScrollView = nil;
-//    }
-//}
-//
-//- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
-//    if (![scrollView isEqual:self.containerScrollViewDelegate.scrollView]) {
-//        self.currentSubScrollView = nil;
-//    }
-//}
-
-
-//- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
-//    if (![scrollView isEqual:self.containerScrollViewDelegate.scrollView]) {
-//        self.currentSubScrollView = nil;
-//    }
-//    NSLog(@"----endDrigging");
-//}
-
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     CGFloat offsetY = scrollView.contentOffset.y;
-    CGFloat limitY = 150;
+    CGFloat limitY = [self.containerScrollViewDelegate.scrollView hoverPositionY];
     if ([scrollView isEqual:self.containerScrollViewDelegate.scrollView]) {
         CGFloat subOffsetY = self.currentSubScrollView.contentOffset.y;
         if ((self.beginContainerOffsetY > 0 && offsetY < 0) || (self.beginContainerOffsetY < 0 && offsetY > 0)) {
