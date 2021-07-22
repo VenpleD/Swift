@@ -7,6 +7,7 @@
 
 #import "NextViewController.h"
 #import "UIScrollView+ScrollRecognize.h"
+#import <MJRefresh/MJRefresh.h>
 
 @interface NextViewController ()<UITableViewDelegate, UITableViewDataSource, UIScrollViewDelegate>
 
@@ -37,6 +38,18 @@ static NSInteger cellCount = 10;
         }
     [self.tableView setNested:YES];
     [self.tableView setHoverPositionY:100];
+    MJRefreshHeader *header = [MJRefreshHeader headerWithRefreshingBlock:^{
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [self.tableView.mj_header endRefreshing];
+        });
+    }];
+    UILabel *headerLabel = [UILabel new];
+    headerLabel.text = @"helloContainer";
+    headerLabel.textColor = [UIColor whiteColor];
+    headerLabel.backgroundColor = [UIColor blackColor];
+    headerLabel.frame = CGRectMake(0, 0, 100, 30);
+    [header addSubview:headerLabel];
+    self.tableView.mj_header = header;
     [self.view addSubview:self.tableView];
     self.randomScrollView = self.tableView;
     UIButton *randomOffsetButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -76,6 +89,11 @@ static NSInteger cellCount = 10;
             subScroll.delegate = self;
             subScroll.containerPullDown = i % 2;
             [tableView addSubScrollView:subScroll];
+            subScroll.mj_header = [MJRefreshHeader headerWithRefreshingBlock:^{
+                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                    [subScroll.mj_header endRefreshing];
+                });
+            }];
             for (NSInteger j = 0; j < 100; j++) {
                 UILabel *label = [UILabel new];
                 label.frame = CGRectMake(0, 45 * j, 100, 45);

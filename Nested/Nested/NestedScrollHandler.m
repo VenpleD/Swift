@@ -14,11 +14,11 @@
 
 @property (nonatomic, strong) UIScrollView *currentSubScrollView;
 
-@property (nonatomic, assign) BOOL hasChangeSub;
-
 @property (nonatomic, assign) CGFloat beginContainerOffsetY;
 
 @property (nonatomic, assign) CGFloat beginSubOffsetY;
+
+@property (nonatomic, assign) BOOL beginDragContainer;
 
 @end
 
@@ -56,15 +56,12 @@
 
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
     if (![scrollView isEqual:self.containerScrollViewDelegate.scrollView]) {
-        if (self.currentSubScrollView) {
-            if (![self.currentSubScrollView isEqual:scrollView]) {
-                self.hasChangeSub = YES;
-            }
-        }
         self.currentSubScrollView = scrollView;
         self.beginSubOffsetY = scrollView.contentOffset.y;
+        self.beginDragContainer = NO;
     } else {
         self.beginContainerOffsetY = scrollView.contentOffset.y;
+        self.beginDragContainer = YES;
     }
     if ([self.containerScrollViewDelegate.scrollView isEqual:scrollView] && [self.containerScrollViewDelegate.originalScrollDelegate respondsToSelector:@selector(scrollViewWillBeginDragging:)]) {
         [self.containerScrollViewDelegate.originalScrollDelegate scrollViewWillBeginDragging:scrollView];
@@ -78,6 +75,9 @@
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    if (self.beginDragContainer) {
+        return;
+    }
     CGFloat offsetY = scrollView.contentOffset.y;
     CGFloat limitY = [self.containerScrollViewDelegate.scrollView hoverPositionY];
     if ([scrollView isEqual:self.containerScrollViewDelegate.scrollView]) {
@@ -119,7 +119,7 @@
 
     } else {
         CGFloat containerOffsetY = self.containerScrollViewDelegate.scrollView.contentOffset.y;
-        NSLog(@"sub--offsetY:%@, subOffsetY:%@, %@", @(offsetY), @(containerOffsetY), @(self.beginSubOffsetY));
+        NSLog(@"sub--offsetY:%@, containerOffsetY:%@, %@", @(offsetY), @(containerOffsetY), @(self.beginSubOffsetY));
         if ((self.beginSubOffsetY > 0 && offsetY < 0) || (self.beginSubOffsetY < 0 && offsetY > 0)) {
             /// 只要当前的offset跟开始的是一正一负，就代表经过0点了，所以需要置为0，因为有时候offset不一定刚好是0
             self.beginSubOffsetY = 0;
@@ -131,6 +131,11 @@
             } else {
                 if (containerOffsetY > 0) {
                     scrollView.contentOffset = CGPointMake(0, 0);
+                } else if (containerOffsetY < 0) {
+                    /// 修复猛的拖拽子scrollview，导致的容器抖动，容器0点位置
+                    if (self.beginContainerOffsetY == 0) {
+                        self.containerScrollViewDelegate.scrollView.contentOffset = CGPointMake(0, 0);
+                    }
                 }
             }
 
@@ -139,10 +144,13 @@
             if (containerOffsetY < limitY && containerOffsetY >= 0 && self.beginSubOffsetY == 0.f) {
                 scrollView.contentOffset = CGPointMake(0, 0);
             }
+            /// 猛的拖拽子视图，容器抖动，容器limit位置
+            if (containerOffsetY > 0 && self.beginContainerOffsetY == limitY) {
+                self.containerScrollViewDelegate.scrollView.contentOffset = CGPointMake(0, limitY);
+            }
             if (scrollView.containerPullDown) {
                 if (containerOffsetY < 0) {
                     scrollView.contentOffset = CGPointMake(0, 0);
-                    
                 }
             }
         } else {

@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NestedScrollViewDelegate : NSObject<UIScrollViewDelegate, UITableViewDelegate>
 
-@property (nonatomic, weak) id <UITableViewDelegate>originalScrollDelegate;
+@property (nullable, nonatomic, weak) id <UITableViewDelegate>originalScrollDelegate;
 
 @property (nonatomic, weak) UIScrollView *scrollView;
 
