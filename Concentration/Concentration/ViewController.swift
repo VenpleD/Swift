@@ -42,19 +42,46 @@ class ViewController: UIViewController {
     
     private(set) var flipCount = 0 {
         didSet {
-            flipCountLabel.text = "Flips: \(flipCount)"
+            updateViewConstraints()
         }
     }
-    @IBOutlet private weak var flipCountLabel: UILabel!
+    
+    private func updateFlipCountLabel() {
+        let attributes: [NSAttributedString.Key: Any] = [
+            .strokeColor: UIColor.orange,
+            .strokeWidth: 5.0
+        ]
+        flipCountLabel.attributedText = NSAttributedString(string: "Flips: \(flipCount)", attributes: attributes)
+    }
+    @IBOutlet private weak var flipCountLabel: UILabel! {
+        didSet {
+            updateFlipCountLabel()
+        }
+    }
     @IBOutlet private var CardButtons: [UIButton]!
 //    var emojiChoices = ["🐶", "🐹", "🐶", "🐹"]
     override func viewDidLoad() {
         super.viewDidLoad()
 //        testEnum()
-        testOptionals()
+//        testOptionals()
+        testReplace()
         // Do any additional setup after loading the view.
     }
-    
+    /// 声明属性闭包
+    typealias closure = (String)->Void;
+    var someProperty: ((String)->Void)?
+    func testReplace() -> Void {
+        var string = "hellofdsjfioasdjfiasdjofd"
+        if let firstIndex = string.first(where: { temp in
+            temp == "s"
+        }) {
+            print("firstIndex:\(firstIndex)")
+        }
+
+        someProperty?("hello closeure")
+        string.replaceSubrange(string.endIndex..<string.endIndex, with: "contents")
+        print("array is : \(string)")
+    }
     func testEnum() -> Void {
         let menuItem: FastFoodMenuItem = FastFoodMenuItem.hamburger(numberOfPatties: 10)
 //        switch menuItem {
@@ -131,9 +158,9 @@ class ViewController: UIViewController {
 
         }
     }
-    
-    private var emojiChoices = ["🐶", "🐱", "🐭", "🐹", "🐰", "🦊", "🐼"]
-    private var emoji = [Int:String]() // Dictionary<Int, String>()
+//    private var emojiChoices = ["🐶", "🐱", "🐭", "🐹", "🐰", "🦊", "🐼"]
+    private var emojiChoices = "🐶🐱🐭🐹🐰🦊🐼"
+    private var emoji = [Card:String]() // Dictionary<Int, String>()
     
     private func emoji(for card:Card) -> String {
 //        if emoji[card.identifier] != nil {
@@ -147,11 +174,11 @@ class ViewController: UIViewController {
 //                emoji[card.identifier] = emojiChoices[randomIndex]
 //            }
 //        }
-        if emoji[card.identifier] == nil, emojiChoices.count > 0 {
-            let randomIndex = emojiChoices.count.arc4random
-            emoji[card.identifier] = emojiChoices.remove(at: randomIndex)
+        if emoji[card] == nil, emojiChoices.count > 0 {
+            let randomIndex = emojiChoices.index(emojiChoices.startIndex, offsetBy: emojiChoices.count.arc4random)
+            emoji[card] = String(emojiChoices.remove(at: randomIndex))
         }
-        return emoji[card.identifier] ?? "?"
+        return emoji[card] ?? "?"
     }
     
     private func test() -> Void {

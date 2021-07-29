@@ -82,11 +82,12 @@
     CGFloat limitY = [self.containerScrollViewDelegate.scrollView hoverPositionY];
     if ([scrollView isEqual:self.containerScrollViewDelegate.scrollView]) {
         CGFloat subOffsetY = self.currentSubScrollView.contentOffset.y;
+        CGFloat subMaxOffsetY = self.currentSubScrollView.contentSize.height;
         if ((self.beginContainerOffsetY > 0 && offsetY < 0) || (self.beginContainerOffsetY < 0 && offsetY > 0)) {
             /// 只要当前的offset跟开始的是一正一负，就代表经过0点了，所以需要置为0，因为有时候offset不一定刚好是0
             self.beginContainerOffsetY = 0;
         }
-        NSLog(@"offsetY:%@, subOffsetY:%@,begin:%@", @(offsetY), @(subOffsetY), @(self.beginContainerOffsetY));
+        NSLog(@"offsetY:%@, subOffsetY:%@,begin:%@, maxOff:%@", @(offsetY), @(subOffsetY), @(self.beginContainerOffsetY), @(subMaxOffsetY));
         if (offsetY < 0) {
             /// 向下拉
             if (!self.currentSubScrollView.containerPullDown) {

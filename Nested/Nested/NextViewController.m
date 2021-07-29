@@ -69,22 +69,27 @@ static NSInteger cellCount = 10;
     return cellCount;
 }
 
+static cellHeight = 362;
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([UITableViewCell class]) forIndexPath:indexPath];
-   
+    if ([cell.contentView viewWithTag:1010]) {
+        [[cell.contentView viewWithTag:1010] removeFromSuperview];
+    }
     if (indexPath.row == cellCount - 1) {
 
         UIScrollView *scrollView = [UIScrollView new];
-        scrollView.frame = CGRectMake(0, 0, CGRectGetWidth(tableView.frame), CGRectGetHeight(self.view.frame) - 45 * 3);
-        scrollView.contentSize = CGSizeMake(CGRectGetWidth(tableView.frame) * 6, CGRectGetHeight(self.view.frame) - 45 * 3);
+        scrollView.tag = 1010;
+        scrollView.frame = CGRectMake(0, 0, CGRectGetWidth(tableView.frame), cellHeight);
+        scrollView.contentSize = CGSizeMake(CGRectGetWidth(tableView.frame) * 6, cellHeight);
         scrollView.pagingEnabled = YES;
         scrollView.backgroundColor = [UIColor redColor];
-        
+
         for (NSInteger i = 0; i < 6; i++) {
             UIScrollView *subScroll = [UIScrollView new];
             subScroll.backgroundColor = [UIColor colorWithRed:( arc4random() % 255)/255.f green:(( arc4random() % 255) / 255.f) blue:( arc4random() % 255)/255.f alpha:1];
-            subScroll.frame = CGRectMake((CGRectGetWidth(tableView.frame) - 100) * i, 0, (CGRectGetWidth(tableView.frame) - 100), CGRectGetHeight(self.view.frame) - 45 * 3);
-            subScroll.contentSize = CGSizeMake(CGRectGetWidth(tableView.frame) - 100, 1000);
+            subScroll.frame = CGRectMake((CGRectGetWidth(tableView.frame) - 100) * i, 0, (CGRectGetWidth(tableView.frame) - 100), cellHeight);
+            subScroll.contentSize = CGSizeMake(CGRectGetWidth(tableView.frame) - 100, 500);
             subScroll.tag = 100+i;
             subScroll.delegate = self;
             subScroll.containerPullDown = i % 2;
@@ -128,7 +133,7 @@ static NSInteger cellCount = 10;
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.row == cellCount - 1) {
-        return CGRectGetHeight(self.view.frame) - 45 * 3;
+        return cellHeight;
     }
     return 45;
 }

@@ -14,6 +14,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        var operation: (Double) -> Double
+        operation = { -$0}
+        let result = operation(4.0)
+        print("result is \(result)")
+        
+        let primes = [2.0, 3.0, 5.0, 7.0, 11.0]
+        let negativePrimes = primes.map { ele in
+            -ele
+        }
+        print("negativePrimes is \(negativePrimes)")
         return true
     }
 

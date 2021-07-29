@@ -6,6 +6,29 @@
 //
 
 import Foundation
+import UIKit
+
+protocol Moveable {
+    func move(to point: CGPoint) -> Void
+}
+
+class Car: Moveable {
+    func move(to point: CGPoint) {
+        
+    }
+    func changeOil() -> Void {
+        
+    }
+}
+
+struct Shape: Moveable {
+    func move(to point: CGPoint) {
+        
+    }
+    func draw() -> Void {
+        
+    }
+}
 
 struct Concentration
 {
@@ -15,17 +38,18 @@ struct Concentration
     /// 这个变量，是因为有set和get方法，所以系统知道他是可变的，不需要加mutating
     var indexOfOneAndOnlyFaceUpCard: Int? {
         get {
-            var foundIndex: Int?
-            for index in cards.indices {
-                if cards[index].isFaceUp {
-                    if foundIndex == nil {
-                        foundIndex = index
-                    } else {
-                        return nil
-                    }
-                }
-            }
-            return foundIndex
+            return cards.indices.filter { cards[$0].isFaceUp }.oneAndOnly
+//            var foundIndex: Int?
+//            for index in cards.indices {
+//                if cards[index].isFaceUp {
+//                    if foundIndex == nil {
+//                        foundIndex = index
+//                    } else {
+//                        return nil
+//                    }
+//                }
+//            }
+//            return foundIndex
         }
         set {
             for index in cards.indices {
@@ -37,7 +61,7 @@ struct Concentration
     mutating func chooseCard(at index: Int) -> Void {
         if !cards[index].isMatched {
             if let matchIndex = indexOfOneAndOnlyFaceUpCard, matchIndex != index {
-                if cards[matchIndex].identifier == cards[index].identifier {
+                if cards[matchIndex] == cards[index] {
                     cards[matchIndex].isMatched = true
                     cards[index].isMatched = true
                 }
@@ -60,4 +84,10 @@ struct Concentration
 
     }
     
+}
+
+extension Collection {
+    var oneAndOnly: Element? {
+        return count == 1 ? first : nil
+    }
 }
