@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>738499A9-5E66-4CA4-837E-04BC95AA460D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>738499A9-5E66-4CA4-837E-04BC95AA460D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Gaiwa-emehyreglhpjzpanoxcavazwwvfv</string>
+			<key>timeStartedRecording</key>
+			<real>670825939.27344501</real>
+			<key>timeStoppedRecording</key>
+			<real>670825940.26579702</real>
+			<key>title</key>
+			<string>Build target Gaiwa</string>
+			<key>uniqueIdentifier</key>
+			<string>738499A9-5E66-4CA4-837E-04BC95AA460D</string>
+		</dict>
+		<key>F13DDCC2-ED3F-4AC1-9FC3-72BFDDA6A5BD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>F13DDCC2-ED3F-4AC1-9FC3-72BFDDA6A5BD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>signature</key>
+			<string>Gaiwa-fmocwkcdsfzbkechplkzlcamykho</string>
+			<key>timeStartedRecording</key>
+			<real>668694909.75336206</real>
+			<key>timeStoppedRecording</key>
+			<real>668694909.75367701</real>
+			<key>title</key>
+			<string>Build target Gaiwa</string>
+			<key>uniqueIdentifier</key>
+			<string>F13DDCC2-ED3F-4AC1-9FC3-72BFDDA6A5BD</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

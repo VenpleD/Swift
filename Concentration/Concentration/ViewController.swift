@@ -64,61 +64,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 //        testEnum()
 //        testOptionals()
-        testReplace()
         // Do any additional setup after loading the view.
     }
     /// 声明属性闭包
     typealias closure = (String)->Void;
     var someProperty: ((String)->Void)?
-    func testReplace() -> Void {
-        var string = "hellofdsjfioasdjfiasdjofd"
-        if let firstIndex = string.first(where: { temp in
-            temp == "s"
-        }) {
-            print("firstIndex:\(firstIndex)")
-        }
-
-        someProperty?("hello closeure")
-        string.replaceSubrange(string.endIndex..<string.endIndex, with: "contents")
-        print("array is : \(string)")
-    }
-    func testEnum() -> Void {
-        let menuItem: FastFoodMenuItem = FastFoodMenuItem.hamburger(numberOfPatties: 10)
-//        switch menuItem {
-//        case FastFoodMenuItem.hamburger:
-//            print("burger")
-//        case FastFoodMenuItem.fries:
-//            print("fries")
-//        case FastFoodMenuItem.drink:
-//            print("drink")
-//        case FastFoodMenuItem.cookie:
-//            print("cookie")
-//        }
-        switch menuItem {
-        case .hamburger:
-            print("burger")
-        case .fries:
-            print("fries")
-        case .drink:
-            print("drink")
-        case .cookie:
-            print("cookie")
-        }
-        
-        switch menuItem {
-        case .hamburger(let pattyCount):
-            print("a burger with \(pattyCount) patties!")
-        case .fries(let size):
-            print("a \(size) order of fries!")
-        case .drink(let brand, let ounces):
-            print("a \(ounces)oz \(brand)")
-        default:
-            print("cookies")
-        }
-        if case .cookie = menuItem {
-            
-        }
-    }
     
     func testOptionals() -> Void {
         var hello: String?

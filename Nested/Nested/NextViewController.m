@@ -19,6 +19,13 @@
 
 static NSInteger cellCount = 10;
 
+
+typedef int (*p)(int);
+
+int func(int a) {
+    return 10;
+}
+
 @implementation NextViewController
 
 - (void)dealloc {
@@ -27,6 +34,9 @@ static NSInteger cellCount = 10;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    NSString *string = nil;
+    NSDictionary *dict = [[NSDictionary alloc] initWithObjectsAndKeys:string, @"value", nil];
     self.tableView = [UITableView new];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
@@ -37,19 +47,18 @@ static NSInteger cellCount = 10;
             self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
         }
     [self.tableView setNested:YES];
-    [self.tableView setHoverPositionY:100];
-    MJRefreshHeader *header = [MJRefreshHeader headerWithRefreshingBlock:^{
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            [self.tableView.mj_header endRefreshing];
-        });
-    }];
-    UILabel *headerLabel = [UILabel new];
-    headerLabel.text = @"helloContainer";
-    headerLabel.textColor = [UIColor whiteColor];
-    headerLabel.backgroundColor = [UIColor blackColor];
-    headerLabel.frame = CGRectMake(0, 0, 100, 30);
-    [header addSubview:headerLabel];
-    self.tableView.mj_header = header;
+//    MJRefreshHeader *header = [MJRefreshHeader headerWithRefreshingBlock:^{
+//        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//            [self.tableView.mj_header endRefreshing];
+//        });
+//    }];
+//    UILabel *headerLabel = [UILabel new];
+//    headerLabel.text = @"helloContainer";
+//    headerLabel.textColor = [UIColor whiteColor];
+//    headerLabel.backgroundColor = [UIColor blackColor];
+//    headerLabel.frame = CGRectMake(0, 0, 100, 30);
+//    [header addSubview:headerLabel];
+//    self.tableView.mj_header = header;
     [self.view addSubview:self.tableView];
     self.randomScrollView = self.tableView;
     UIButton *randomOffsetButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -58,6 +67,7 @@ static NSInteger cellCount = 10;
     [randomOffsetButton setTitle:@"randomOffsetY" forState:UIControlStateNormal];
     [randomOffsetButton addTarget:self action:@selector(randomOffsetY) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:randomOffsetButton];
+
     // Do any additional setup after loading the view.
 }
 
@@ -92,7 +102,6 @@ static cellHeight = 362;
             subScroll.contentSize = CGSizeMake(CGRectGetWidth(tableView.frame) - 100, 500);
             subScroll.tag = 100+i;
             subScroll.delegate = self;
-            subScroll.containerPullDown = i % 2;
             [tableView addSubScrollView:subScroll];
             subScroll.mj_header = [MJRefreshHeader headerWithRefreshingBlock:^{
                 dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{

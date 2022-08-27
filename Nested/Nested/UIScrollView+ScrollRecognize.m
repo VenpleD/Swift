@@ -10,44 +10,17 @@
 #import "NestedScrollViewDelegate.h"
 #import "NestedScrollHandler.h"
 
-@interface NSObject (ScrollRecognize)
-
-
-
-@end
-
-@implementation NSObject (ScrollRecognize)
-
-
-
-
-@end
-
 
 static NSString *normalDelegate = nil;
 
 static NSString *_nestedKey = nil;
 
-static NSString *_containerPullDown = nil;
-
-static NSString *_hoverPositionY = nil;
-
 @implementation UIScrollView (ScrollRecognize)
 
-- (void)setHoverPositionY:(CGFloat)hoverPositionY {
-    objc_setAssociatedObject(self, &_hoverPositionY, @(hoverPositionY), OBJC_ASSOCIATION_RETAIN);
-}
-
-- (CGFloat)hoverPositionY {
-    return [objc_getAssociatedObject(self, &_hoverPositionY) floatValue];
-}
-
-- (void)setContainerPullDown:(BOOL)pullDown {
-    objc_setAssociatedObject(self, &_containerPullDown, @(pullDown), OBJC_ASSOCIATION_RETAIN);
-}
-
-- (BOOL)containerPullDown {
-    return [objc_getAssociatedObject(self, &_containerPullDown) boolValue];
+- (void)settingOffsetY:(CGFloat)offsetY {
+    CGPoint offset = self.contentOffset;
+    offset.y = offsetY;
+    self.contentOffset = offset;
 }
 
 - (void)setNestedScrollDelegate:(NestedScrollHandler *)nestedScrollDelegate {

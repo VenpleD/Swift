@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CC51234C19C3CA7276B3D0CF5717087F539A2396",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CC51234C19C3CA7276B3D0CF5717087F539A2396" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7E0BC1FE-345E-49E7-BE35-2D9F34F32ACF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CC51234C19C3CA7276B3D0CF5717087F539A2396" : "Swift\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GaiWa",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GaiWa\/GaiWa.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git@github.com:VenpleD\/Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CC51234C19C3CA7276B3D0CF5717087F539A2396"
+    }
+  ]
+}

@@ -24,6 +24,8 @@
 /* Begin PBXFileReference section */
 		2E03F3B6035C214834FCCB52 /* Pods-Nested.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nested.release.xcconfig"; path = "Target Support Files/Pods-Nested/Pods-Nested.release.xcconfig"; sourceTree = "<group>"; };
 		76D9ACF953CDE0FFBE7B47EC /* Pods-Nested.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nested.debug.xcconfig"; path = "Target Support Files/Pods-Nested/Pods-Nested.debug.xcconfig"; sourceTree = "<group>"; };
+		B632897626B7C1AB0066CC99 /* Nested.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nested.pch; sourceTree = "<group>"; };
+		B632897726B7C2360066CC99 /* NSStringMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStringMacro.h; sourceTree = "<group>"; };
 		B6B710B1269ED179004FCB34 /* Nested.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nested.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B710B4269ED179004FCB34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6B710B5269ED179004FCB34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -97,10 +99,12 @@
 				B6B710BB269ED179004FCB34 /* ViewController.m */,
 				B6B710D3269EE0BE004FCB34 /* NextViewController.h */,
 				B6B710D4269EE0BE004FCB34 /* NextViewController.m */,
+				B632897626B7C1AB0066CC99 /* Nested.pch */,
 				B6B710CD269ED41F004FCB34 /* UIScrollView+ScrollRecognize.h */,
 				B6B710CE269ED41F004FCB34 /* UIScrollView+ScrollRecognize.m */,
 				B6B710D6269FDB0B004FCB34 /* NestedScrollHandler.h */,
 				B6B710D7269FDB0B004FCB34 /* NestedScrollHandler.m */,
+				B632897726B7C2360066CC99 /* NSStringMacro.h */,
 				B6B710D0269EDB04004FCB34 /* NestedScrollViewDelegate.h */,
 				B6B710D1269EDB04004FCB34 /* NestedScrollViewDelegate.m */,
 				B6B710BD269ED179004FCB34 /* Main.storyboard */,
@@ -386,6 +390,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7ZJ8N3HT9P;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Nested/Nested.pch;
 				INFOPLIST_FILE = Nested/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,6 +412,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7ZJ8N3HT9P;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Nested/Nested.pch;
 				INFOPLIST_FILE = Nested/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

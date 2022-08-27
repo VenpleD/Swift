@@ -1,0 +1,3152 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "Gaiwa",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView",
+      "printedName": "ContentView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa11ContentViewV4bodyQrvp",
+          "mangledName": "$s5Gaiwa11ContentViewV4bodyQrvp",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa11ContentViewV4bodyQrvg",
+              "mangledName": "$s5Gaiwa11ContentViewV4bodyQrvg",
+              "moduleName": "Gaiwa",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "Gaiwa.ContentView",
+              "usr": "s:5Gaiwa11ContentViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:5Gaiwa11ContentViewVACycfc",
+          "mangledName": "$s5Gaiwa11ContentViewVACycfc",
+          "moduleName": "Gaiwa",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:5Gaiwa11ContentViewV",
+      "mangledName": "$s5Gaiwa11ContentViewV",
+      "moduleName": "Gaiwa",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Function",
+      "name": "address",
+      "printedName": "address(object:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "String",
+          "printedName": "Swift.String",
+          "usr": "s:SS"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "UnsafeRawPointer",
+          "printedName": "Swift.UnsafeRawPointer",
+          "usr": "s:SV"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:5Gaiwa7address6objectSSSV_tF",
+      "mangledName": "$s5Gaiwa7address6objectSSSV_tF",
+      "moduleName": "Gaiwa",
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Gaiwa",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "GWDayRecordList",
+      "printedName": "GWDayRecordList",
+      "declKind": "Protocol",
+      "usr": "s:5Gaiwa15GWDayRecordListP",
+      "mangledName": "$s5Gaiwa15GWDayRecordListP",
+      "moduleName": "Gaiwa",
+      "genericSig": "<τ_0_0 : ObjectiveC.NSObject>",
+      "sugared_genericSig": "<Self : ObjectiveC.NSObject>"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "GWDateDay",
+      "printedName": "GWDateDay",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "day",
+          "printedName": "day",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa9GWDateDayP3daySivpZ",
+          "mangledName": "$s5Gaiwa9GWDateDayP3daySivpZ",
+          "moduleName": "Gaiwa",
+          "static": true,
+          "protocolReq": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa9GWDateDayP3daySivgZ",
+              "mangledName": "$s5Gaiwa9GWDateDayP3daySivgZ",
+              "moduleName": "Gaiwa",
+              "genericSig": "<τ_0_0 where τ_0_0 : Gaiwa.GWDateDay>",
+              "sugared_genericSig": "<Self where Self : Gaiwa.GWDateDay>",
+              "static": true,
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa9GWDateDayP3daySivsZ",
+              "mangledName": "$s5Gaiwa9GWDateDayP3daySivsZ",
+              "moduleName": "Gaiwa",
+              "genericSig": "<τ_0_0 where τ_0_0 : Gaiwa.GWDateDay>",
+              "sugared_genericSig": "<Self where Self : Gaiwa.GWDateDay>",
+              "static": true,
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa9GWDateDayP3daySivMZ",
+              "mangledName": "$s5Gaiwa9GWDateDayP3daySivMZ",
+              "moduleName": "Gaiwa",
+              "genericSig": "<τ_0_0 where τ_0_0 : Gaiwa.GWDateDay>",
+              "sugared_genericSig": "<Self where Self : Gaiwa.GWDateDay>",
+              "static": true,
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:5Gaiwa9GWDateDayP",
+      "mangledName": "$s5Gaiwa9GWDateDayP",
+      "moduleName": "Gaiwa"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "GWDayRecordModel",
+      "printedName": "GWDayRecordModel",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GWDayRecordModel",
+              "printedName": "Gaiwa.GWDayRecordModel",
+              "usr": "s:5Gaiwa16GWDayRecordModelC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:5Gaiwa16GWDayRecordModelCACycfc",
+          "mangledName": "$s5Gaiwa16GWDayRecordModelCACycfc",
+          "moduleName": "Gaiwa",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:5Gaiwa16GWDayRecordModelC",
+      "mangledName": "$s5Gaiwa16GWDayRecordModelC",
+      "moduleName": "Gaiwa",
+      "declAttributes": [
+        "Final"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Identifiable",
+          "printedName": "Identifiable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ID",
+              "printedName": "ID",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ObjectIdentifier",
+                  "printedName": "Swift.ObjectIdentifier",
+                  "usr": "s:SO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s12IdentifiableP",
+          "mangledName": "$ss12IdentifiableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "GWDateDayModel",
+      "printedName": "GWDateDayModel",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "dateDay",
+          "printedName": "dateDay",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa14GWDateDayModelC04dateC0Sivp",
+          "mangledName": "$s5Gaiwa14GWDateDayModelC04dateC0Sivp",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa14GWDateDayModelC04dateC0Sivg",
+              "mangledName": "$s5Gaiwa14GWDateDayModelC04dateC0Sivg",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa14GWDateDayModelC04dateC0Sivs",
+              "mangledName": "$s5Gaiwa14GWDateDayModelC04dateC0Sivs",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa14GWDateDayModelC04dateC0SivM",
+              "mangledName": "$s5Gaiwa14GWDateDayModelC04dateC0SivM",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "dateYear",
+          "printedName": "dateYear",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa14GWDateDayModelC8dateYearSivp",
+          "mangledName": "$s5Gaiwa14GWDateDayModelC8dateYearSivp",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa14GWDateDayModelC8dateYearSivg",
+              "mangledName": "$s5Gaiwa14GWDateDayModelC8dateYearSivg",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa14GWDateDayModelC8dateYearSivs",
+              "mangledName": "$s5Gaiwa14GWDateDayModelC8dateYearSivs",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa14GWDateDayModelC8dateYearSivM",
+              "mangledName": "$s5Gaiwa14GWDateDayModelC8dateYearSivM",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "dateMonth",
+          "printedName": "dateMonth",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa14GWDateDayModelC9dateMonthSivp",
+          "mangledName": "$s5Gaiwa14GWDateDayModelC9dateMonthSivp",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa14GWDateDayModelC9dateMonthSivg",
+              "mangledName": "$s5Gaiwa14GWDateDayModelC9dateMonthSivg",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa14GWDateDayModelC9dateMonthSivs",
+              "mangledName": "$s5Gaiwa14GWDateDayModelC9dateMonthSivs",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa14GWDateDayModelC9dateMonthSivM",
+              "mangledName": "$s5Gaiwa14GWDateDayModelC9dateMonthSivM",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "dateWeekDay",
+          "printedName": "dateWeekDay",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa14GWDateDayModelC08dateWeekC0Sivp",
+          "mangledName": "$s5Gaiwa14GWDateDayModelC08dateWeekC0Sivp",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa14GWDateDayModelC08dateWeekC0Sivg",
+              "mangledName": "$s5Gaiwa14GWDateDayModelC08dateWeekC0Sivg",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa14GWDateDayModelC08dateWeekC0Sivs",
+              "mangledName": "$s5Gaiwa14GWDateDayModelC08dateWeekC0Sivs",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa14GWDateDayModelC08dateWeekC0SivM",
+              "mangledName": "$s5Gaiwa14GWDateDayModelC08dateWeekC0SivM",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "isToday",
+          "printedName": "isToday",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa14GWDateDayModelC7isTodaySbvp",
+          "mangledName": "$s5Gaiwa14GWDateDayModelC7isTodaySbvp",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa14GWDateDayModelC7isTodaySbvg",
+              "mangledName": "$s5Gaiwa14GWDateDayModelC7isTodaySbvg",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa14GWDateDayModelC7isTodaySbvs",
+              "mangledName": "$s5Gaiwa14GWDateDayModelC7isTodaySbvs",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa14GWDateDayModelC7isTodaySbvM",
+              "mangledName": "$s5Gaiwa14GWDateDayModelC7isTodaySbvM",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GWDateDayModel",
+              "printedName": "Gaiwa.GWDateDayModel",
+              "usr": "s:5Gaiwa14GWDateDayModelC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:5Gaiwa14GWDateDayModelCACycfc",
+          "mangledName": "$s5Gaiwa14GWDateDayModelCACycfc",
+          "moduleName": "Gaiwa",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:5Gaiwa14GWDateDayModelC",
+      "mangledName": "$s5Gaiwa14GWDateDayModelC",
+      "moduleName": "Gaiwa",
+      "declAttributes": [
+        "Final"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Identifiable",
+          "printedName": "Identifiable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ID",
+              "printedName": "ID",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ObjectIdentifier",
+                  "printedName": "Swift.ObjectIdentifier",
+                  "usr": "s:SO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s12IdentifiableP",
+          "mangledName": "$ss12IdentifiableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "GWDayModel",
+      "printedName": "GWDayModel",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "dateDay",
+          "printedName": "dateDay",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Gaiwa.GWDateDayModel?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GWDateDayModel",
+                  "printedName": "Gaiwa.GWDateDayModel",
+                  "usr": "s:5Gaiwa14GWDateDayModelC"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa10GWDayModelC7dateDayAA06GWDateeC0CSgvp",
+          "mangledName": "$s5Gaiwa10GWDayModelC7dateDayAA06GWDateeC0CSgvp",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Gaiwa.GWDateDayModel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GWDateDayModel",
+                      "printedName": "Gaiwa.GWDateDayModel",
+                      "usr": "s:5Gaiwa14GWDateDayModelC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa10GWDayModelC7dateDayAA06GWDateeC0CSgvg",
+              "mangledName": "$s5Gaiwa10GWDayModelC7dateDayAA06GWDateeC0CSgvg",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Gaiwa.GWDateDayModel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GWDateDayModel",
+                      "printedName": "Gaiwa.GWDateDayModel",
+                      "usr": "s:5Gaiwa14GWDateDayModelC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa10GWDayModelC7dateDayAA06GWDateeC0CSgvs",
+              "mangledName": "$s5Gaiwa10GWDayModelC7dateDayAA06GWDateeC0CSgvs",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa10GWDayModelC7dateDayAA06GWDateeC0CSgvM",
+              "mangledName": "$s5Gaiwa10GWDayModelC7dateDayAA06GWDateeC0CSgvM",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "dayRecordList",
+          "printedName": "dayRecordList",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[Gaiwa.GWDayRecordModel]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Gaiwa.GWDayRecordModel]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GWDayRecordModel",
+                      "printedName": "Gaiwa.GWDayRecordModel",
+                      "usr": "s:5Gaiwa16GWDayRecordModelC"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa10GWDayModelC13dayRecordListSayAA0beC0CGSgvp",
+          "mangledName": "$s5Gaiwa10GWDayModelC13dayRecordListSayAA0beC0CGSgvp",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "[Gaiwa.GWDayRecordModel]?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Array",
+                      "printedName": "[Gaiwa.GWDayRecordModel]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "GWDayRecordModel",
+                          "printedName": "Gaiwa.GWDayRecordModel",
+                          "usr": "s:5Gaiwa16GWDayRecordModelC"
+                        }
+                      ],
+                      "usr": "s:Sa"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa10GWDayModelC13dayRecordListSayAA0beC0CGSgvg",
+              "mangledName": "$s5Gaiwa10GWDayModelC13dayRecordListSayAA0beC0CGSgvg",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "[Gaiwa.GWDayRecordModel]?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Array",
+                      "printedName": "[Gaiwa.GWDayRecordModel]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "GWDayRecordModel",
+                          "printedName": "Gaiwa.GWDayRecordModel",
+                          "usr": "s:5Gaiwa16GWDayRecordModelC"
+                        }
+                      ],
+                      "usr": "s:Sa"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa10GWDayModelC13dayRecordListSayAA0beC0CGSgvs",
+              "mangledName": "$s5Gaiwa10GWDayModelC13dayRecordListSayAA0beC0CGSgvs",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa10GWDayModelC13dayRecordListSayAA0beC0CGSgvM",
+              "mangledName": "$s5Gaiwa10GWDayModelC13dayRecordListSayAA0beC0CGSgvM",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GWDayModel",
+              "printedName": "Gaiwa.GWDayModel",
+              "usr": "s:5Gaiwa10GWDayModelC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:5Gaiwa10GWDayModelCACycfc",
+          "mangledName": "$s5Gaiwa10GWDayModelCACycfc",
+          "moduleName": "Gaiwa",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:5Gaiwa10GWDayModelC",
+      "mangledName": "$s5Gaiwa10GWDayModelC",
+      "moduleName": "Gaiwa",
+      "declAttributes": [
+        "Final"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Identifiable",
+          "printedName": "Identifiable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ID",
+              "printedName": "ID",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ObjectIdentifier",
+                  "printedName": "Swift.ObjectIdentifier",
+                  "usr": "s:SO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s12IdentifiableP",
+          "mangledName": "$ss12IdentifiableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "GWMonthModel",
+      "printedName": "GWMonthModel",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "daysInMonth",
+          "printedName": "daysInMonth",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[Gaiwa.GWDayModel]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Gaiwa.GWDayModel]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GWDayModel",
+                      "printedName": "Gaiwa.GWDayModel",
+                      "usr": "s:5Gaiwa10GWDayModelC"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa12GWMonthModelC11daysInMonthSayAA05GWDayC0CGSgvp",
+          "mangledName": "$s5Gaiwa12GWMonthModelC11daysInMonthSayAA05GWDayC0CGSgvp",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "[Gaiwa.GWDayModel]?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Array",
+                      "printedName": "[Gaiwa.GWDayModel]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "GWDayModel",
+                          "printedName": "Gaiwa.GWDayModel",
+                          "usr": "s:5Gaiwa10GWDayModelC"
+                        }
+                      ],
+                      "usr": "s:Sa"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa12GWMonthModelC11daysInMonthSayAA05GWDayC0CGSgvg",
+              "mangledName": "$s5Gaiwa12GWMonthModelC11daysInMonthSayAA05GWDayC0CGSgvg",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "[Gaiwa.GWDayModel]?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Array",
+                      "printedName": "[Gaiwa.GWDayModel]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "GWDayModel",
+                          "printedName": "Gaiwa.GWDayModel",
+                          "usr": "s:5Gaiwa10GWDayModelC"
+                        }
+                      ],
+                      "usr": "s:Sa"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa12GWMonthModelC11daysInMonthSayAA05GWDayC0CGSgvs",
+              "mangledName": "$s5Gaiwa12GWMonthModelC11daysInMonthSayAA05GWDayC0CGSgvs",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa12GWMonthModelC11daysInMonthSayAA05GWDayC0CGSgvM",
+              "mangledName": "$s5Gaiwa12GWMonthModelC11daysInMonthSayAA05GWDayC0CGSgvM",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "dateMonth",
+          "printedName": "dateMonth",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa12GWMonthModelC9dateMonthSivp",
+          "mangledName": "$s5Gaiwa12GWMonthModelC9dateMonthSivp",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa12GWMonthModelC9dateMonthSivg",
+              "mangledName": "$s5Gaiwa12GWMonthModelC9dateMonthSivg",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa12GWMonthModelC9dateMonthSivs",
+              "mangledName": "$s5Gaiwa12GWMonthModelC9dateMonthSivs",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa12GWMonthModelC9dateMonthSivM",
+              "mangledName": "$s5Gaiwa12GWMonthModelC9dateMonthSivM",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "dateYear",
+          "printedName": "dateYear",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa12GWMonthModelC8dateYearSivp",
+          "mangledName": "$s5Gaiwa12GWMonthModelC8dateYearSivp",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa12GWMonthModelC8dateYearSivg",
+              "mangledName": "$s5Gaiwa12GWMonthModelC8dateYearSivg",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa12GWMonthModelC8dateYearSivs",
+              "mangledName": "$s5Gaiwa12GWMonthModelC8dateYearSivs",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa12GWMonthModelC8dateYearSivM",
+              "mangledName": "$s5Gaiwa12GWMonthModelC8dateYearSivM",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "id",
+          "printedName": "id",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UUID",
+              "printedName": "Foundation.UUID",
+              "usr": "s:10Foundation4UUIDV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa12GWMonthModelC2id10Foundation4UUIDVvp",
+          "mangledName": "$s5Gaiwa12GWMonthModelC2id10Foundation4UUIDVvp",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UUID",
+                  "printedName": "Foundation.UUID",
+                  "usr": "s:10Foundation4UUIDV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa12GWMonthModelC2id10Foundation4UUIDVvg",
+              "mangledName": "$s5Gaiwa12GWMonthModelC2id10Foundation4UUIDVvg",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UUID",
+                  "printedName": "Foundation.UUID",
+                  "usr": "s:10Foundation4UUIDV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa12GWMonthModelC2id10Foundation4UUIDVvs",
+              "mangledName": "$s5Gaiwa12GWMonthModelC2id10Foundation4UUIDVvs",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa12GWMonthModelC2id10Foundation4UUIDVvM",
+              "mangledName": "$s5Gaiwa12GWMonthModelC2id10Foundation4UUIDVvM",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GWMonthModel",
+              "printedName": "Gaiwa.GWMonthModel",
+              "usr": "s:5Gaiwa12GWMonthModelC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:5Gaiwa12GWMonthModelCACycfc",
+          "mangledName": "$s5Gaiwa12GWMonthModelCACycfc",
+          "moduleName": "Gaiwa",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:5Gaiwa12GWMonthModelC",
+      "mangledName": "$s5Gaiwa12GWMonthModelC",
+      "moduleName": "Gaiwa",
+      "declAttributes": [
+        "Final"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Identifiable",
+          "printedName": "Identifiable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ID",
+              "printedName": "ID",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UUID",
+                  "printedName": "Foundation.UUID",
+                  "usr": "s:10Foundation4UUIDV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s12IdentifiableP",
+          "mangledName": "$ss12IdentifiableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Gaiwa",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "GWHomeAddCalendarViewModel",
+      "printedName": "GWHomeAddCalendarViewModel",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "loadRecentSevenMonthOfCurrentDay",
+          "printedName": "loadRecentSevenMonthOfCurrentDay(currentDay:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Gaiwa.GWMonthModel]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GWMonthModel",
+                  "printedName": "Gaiwa.GWMonthModel",
+                  "usr": "s:5Gaiwa12GWMonthModelC"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Date",
+              "printedName": "Foundation.Date",
+              "usr": "s:10Foundation4DateV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Gaiwa26GWHomeAddCalendarViewModelC32loadRecentSevenMonthOfCurrentDay07currentM0SayAA07GWMonthF0CG10Foundation4DateV_tF",
+          "mangledName": "$s5Gaiwa26GWHomeAddCalendarViewModelC32loadRecentSevenMonthOfCurrentDay07currentM0SayAA07GWMonthF0CG10Foundation4DateV_tF",
+          "moduleName": "Gaiwa",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "loadCurrentDayOfMonth",
+          "printedName": "loadCurrentDayOfMonth(currentDay:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Gaiwa.GWDayModel]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GWDayModel",
+                  "printedName": "Gaiwa.GWDayModel",
+                  "usr": "s:5Gaiwa10GWDayModelC"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Date",
+              "printedName": "Foundation.Date",
+              "usr": "s:10Foundation4DateV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Gaiwa26GWHomeAddCalendarViewModelC21loadCurrentDayOfMonth07currentI0SayAA05GWDayF0CG10Foundation4DateV_tF",
+          "mangledName": "$s5Gaiwa26GWHomeAddCalendarViewModelC21loadCurrentDayOfMonth07currentI0SayAA05GWDayF0CG10Foundation4DateV_tF",
+          "moduleName": "Gaiwa",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GWHomeAddCalendarViewModel",
+              "printedName": "Gaiwa.GWHomeAddCalendarViewModel",
+              "usr": "s:5Gaiwa26GWHomeAddCalendarViewModelC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:5Gaiwa26GWHomeAddCalendarViewModelCACycfc",
+          "mangledName": "$s5Gaiwa26GWHomeAddCalendarViewModelCACycfc",
+          "moduleName": "Gaiwa",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:5Gaiwa26GWHomeAddCalendarViewModelC",
+      "mangledName": "$s5Gaiwa26GWHomeAddCalendarViewModelC",
+      "moduleName": "Gaiwa",
+      "isOpen": true
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "Gaiwa",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "GWHomeAddView",
+      "printedName": "GWHomeAddView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "tabSelectIndex",
+          "printedName": "tabSelectIndex",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa13GWHomeAddViewV14tabSelectIndexSivp",
+          "mangledName": "$s5Gaiwa13GWHomeAddViewV14tabSelectIndexSivp",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "ProjectedValueProperty",
+            "AccessControl",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa13GWHomeAddViewV14tabSelectIndexSivg",
+              "mangledName": "$s5Gaiwa13GWHomeAddViewV14tabSelectIndexSivg",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa13GWHomeAddViewV14tabSelectIndexSivs",
+              "mangledName": "$s5Gaiwa13GWHomeAddViewV14tabSelectIndexSivs",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa13GWHomeAddViewV14tabSelectIndexSivM",
+              "mangledName": "$s5Gaiwa13GWHomeAddViewV14tabSelectIndexSivM",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$tabSelectIndex",
+          "printedName": "$tabSelectIndex",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Int>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa13GWHomeAddViewV15$tabSelectIndex7SwiftUI7BindingVySiGvp",
+          "mangledName": "$s5Gaiwa13GWHomeAddViewV15$tabSelectIndex7SwiftUI7BindingVySiGvp",
+          "moduleName": "Gaiwa",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.Int>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa13GWHomeAddViewV15$tabSelectIndex7SwiftUI7BindingVySiGvg",
+              "mangledName": "$s5Gaiwa13GWHomeAddViewV15$tabSelectIndex7SwiftUI7BindingVySiGvg",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_tabSelectIndex",
+          "printedName": "_tabSelectIndex",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Int>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa13GWHomeAddViewV15_tabSelectIndex33_80EBE84C27B592E3EA3EC02E029772B0LL7SwiftUI7BindingVySiGvp",
+          "mangledName": "$s5Gaiwa13GWHomeAddViewV15_tabSelectIndex33_80EBE84C27B592E3EA3EC02E029772B0LL7SwiftUI7BindingVySiGvp",
+          "moduleName": "Gaiwa",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa13GWHomeAddViewV4bodyQrvp",
+          "mangledName": "$s5Gaiwa13GWHomeAddViewV4bodyQrvp",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa13GWHomeAddViewV4bodyQrvg",
+              "mangledName": "$s5Gaiwa13GWHomeAddViewV4bodyQrvg",
+              "moduleName": "Gaiwa",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(tabSelectIndex:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GWHomeAddView",
+              "printedName": "Gaiwa.GWHomeAddView",
+              "usr": "s:5Gaiwa13GWHomeAddViewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Int>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:5Gaiwa13GWHomeAddViewV14tabSelectIndexAC7SwiftUI7BindingVySiG_tcfc",
+          "mangledName": "$s5Gaiwa13GWHomeAddViewV14tabSelectIndexAC7SwiftUI7BindingVySiG_tcfc",
+          "moduleName": "Gaiwa",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:5Gaiwa13GWHomeAddViewV",
+      "mangledName": "$s5Gaiwa13GWHomeAddViewV",
+      "moduleName": "Gaiwa",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "Gaiwa",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "GWScrollView",
+      "printedName": "GWScrollView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "pagingEnabled",
+          "printedName": "pagingEnabled",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa12GWScrollViewV13pagingEnabledSbvp",
+          "mangledName": "$s5Gaiwa12GWScrollViewV13pagingEnabledSbvp",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa12GWScrollViewV13pagingEnabledSbvg",
+              "mangledName": "$s5Gaiwa12GWScrollViewV13pagingEnabledSbvg",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa12GWScrollViewV13pagingEnabledSbvs",
+              "mangledName": "$s5Gaiwa12GWScrollViewV13pagingEnabledSbvs",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa12GWScrollViewV13pagingEnabledSbvM",
+              "mangledName": "$s5Gaiwa12GWScrollViewV13pagingEnabledSbvM",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$pagingEnabled",
+          "printedName": "$pagingEnabled",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa12GWScrollViewV14$pagingEnabled7SwiftUI7BindingVySbGvp",
+          "mangledName": "$s5Gaiwa12GWScrollViewV14$pagingEnabled7SwiftUI7BindingVySbGvp",
+          "moduleName": "Gaiwa",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa12GWScrollViewV14$pagingEnabled7SwiftUI7BindingVySbGvg",
+              "mangledName": "$s5Gaiwa12GWScrollViewV14$pagingEnabled7SwiftUI7BindingVySbGvg",
+              "moduleName": "Gaiwa",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_pagingEnabled",
+          "printedName": "_pagingEnabled",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa12GWScrollViewV14_pagingEnabled33_4FF806BE4F0E44F12510791DF7C8F107LL7SwiftUI7BindingVySbGvp",
+          "mangledName": "$s5Gaiwa12GWScrollViewV14_pagingEnabled33_4FF806BE4F0E44F12510791DF7C8F107LL7SwiftUI7BindingVySbGvp",
+          "moduleName": "Gaiwa",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "makeUIView",
+          "printedName": "makeUIView(context:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some UIKit.UIView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIViewRepresentableContext",
+              "printedName": "SwiftUI.UIViewRepresentableContext<Gaiwa.GWScrollView>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GWScrollView",
+                  "printedName": "Gaiwa.GWScrollView",
+                  "usr": "s:5Gaiwa12GWScrollViewV"
+                }
+              ],
+              "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Gaiwa12GWScrollViewV10makeUIView7contextQr7SwiftUI0E20RepresentableContextVyACG_tF",
+          "mangledName": "$s5Gaiwa12GWScrollViewV10makeUIView7contextQr7SwiftUI0E20RepresentableContextVyACG_tF",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "updateUIView",
+          "printedName": "updateUIView(_:context:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some UIKit.UIView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIViewRepresentableContext",
+              "printedName": "SwiftUI.UIViewRepresentableContext<Gaiwa.GWScrollView>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GWScrollView",
+                  "printedName": "Gaiwa.GWScrollView",
+                  "usr": "s:5Gaiwa12GWScrollViewV"
+                }
+              ],
+              "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Gaiwa12GWScrollViewV12updateUIView_7contextyAC04makeE0AEQr7SwiftUI0E20RepresentableContextVyACG_tFQOy_Qo__AJtF",
+          "mangledName": "$s5Gaiwa12GWScrollViewV12updateUIView_7contextyAC04makeE0AEQr7SwiftUI0E20RepresentableContextVyACG_tFQOy_Qo__AJtF",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(pagingEnabled:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GWScrollView",
+              "printedName": "Gaiwa.GWScrollView",
+              "usr": "s:5Gaiwa12GWScrollViewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:5Gaiwa12GWScrollViewV13pagingEnabledAC7SwiftUI7BindingVySbG_tcfc",
+          "mangledName": "$s5Gaiwa12GWScrollViewV13pagingEnabledAC7SwiftUI7BindingVySbG_tcfc",
+          "moduleName": "Gaiwa",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:5Gaiwa12GWScrollViewV",
+      "mangledName": "$s5Gaiwa12GWScrollViewV",
+      "moduleName": "Gaiwa",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "UIViewRepresentable",
+          "printedName": "UIViewRepresentable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "UIViewType",
+              "printedName": "UIViewType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some UIKit.UIView"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Coordinator",
+              "printedName": "Coordinator",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI19UIViewRepresentableP",
+          "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Never",
+                  "printedName": "Swift.Never",
+                  "usr": "s:s5NeverO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "GWHomeAddCalendarView",
+      "printedName": "GWHomeAddCalendarView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "_viewModel",
+          "printedName": "_viewModel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Gaiwa.GWHomeAddCalendarViewModel>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GWHomeAddCalendarViewModel",
+                  "printedName": "Gaiwa.GWHomeAddCalendarViewModel",
+                  "usr": "s:5Gaiwa26GWHomeAddCalendarViewModelC"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa21GWHomeAddCalendarViewV10_viewModel33_4FF806BE4F0E44F12510791DF7C8F107LL7SwiftUI5StateVyAA0bcdeG0CGvp",
+          "mangledName": "$s5Gaiwa21GWHomeAddCalendarViewV10_viewModel33_4FF806BE4F0E44F12510791DF7C8F107LL7SwiftUI5StateVyAA0bcdeG0CGvp",
+          "moduleName": "Gaiwa",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa21GWHomeAddCalendarViewV4bodyQrvp",
+          "mangledName": "$s5Gaiwa21GWHomeAddCalendarViewV4bodyQrvp",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa21GWHomeAddCalendarViewV4bodyQrvg",
+              "mangledName": "$s5Gaiwa21GWHomeAddCalendarViewV4bodyQrvg",
+              "moduleName": "Gaiwa",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GWHomeAddCalendarView",
+              "printedName": "Gaiwa.GWHomeAddCalendarView",
+              "usr": "s:5Gaiwa21GWHomeAddCalendarViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:5Gaiwa21GWHomeAddCalendarViewVACycfc",
+          "mangledName": "$s5Gaiwa21GWHomeAddCalendarViewVACycfc",
+          "moduleName": "Gaiwa",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:5Gaiwa21GWHomeAddCalendarViewV",
+      "mangledName": "$s5Gaiwa21GWHomeAddCalendarViewV",
+      "moduleName": "Gaiwa",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "Gaiwa",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "GaiwaApp",
+      "printedName": "GaiwaApp",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.Scene",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Scene",
+                  "printedName": "SwiftUI.Scene",
+                  "usr": "s:7SwiftUI5SceneP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa0A3AppV4bodyQrvp",
+          "mangledName": "$s5Gaiwa0A3AppV4bodyQrvp",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.Scene",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Scene",
+                      "printedName": "SwiftUI.Scene",
+                      "usr": "s:7SwiftUI5SceneP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa0A3AppV4bodyQrvg",
+              "mangledName": "$s5Gaiwa0A3AppV4bodyQrvg",
+              "moduleName": "Gaiwa",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GaiwaApp",
+              "printedName": "Gaiwa.GaiwaApp",
+              "usr": "s:5Gaiwa0A3AppV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:5Gaiwa0A3AppVACycfc",
+          "mangledName": "$s5Gaiwa0A3AppVACycfc",
+          "moduleName": "Gaiwa",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:5Gaiwa0A3AppV5$mainyyFZ",
+          "mangledName": "$s5Gaiwa0A3AppV5$mainyyFZ",
+          "moduleName": "Gaiwa",
+          "static": true,
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:5Gaiwa0A3AppV",
+      "mangledName": "$s5Gaiwa0A3AppV",
+      "moduleName": "Gaiwa",
+      "declAttributes": [
+        "MainType"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "App",
+          "printedName": "App",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.Scene",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Scene",
+                      "printedName": "SwiftUI.Scene",
+                      "usr": "s:7SwiftUI5SceneP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI3AppP",
+          "mangledName": "$s7SwiftUI3AppP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "Gaiwa",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "GWHomeTabView",
+      "printedName": "GWHomeTabView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "_tabSelectIndex",
+          "printedName": "_tabSelectIndex",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Int>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa13GWHomeTabViewV15_tabSelectIndex33_FEEF206518C4AA07F004581F4215EA12LL7SwiftUI5StateVySiGvp",
+          "mangledName": "$s5Gaiwa13GWHomeTabViewV15_tabSelectIndex33_FEEF206518C4AA07F004581F4215EA12LL7SwiftUI5StateVySiGvp",
+          "moduleName": "Gaiwa",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:5Gaiwa13GWHomeTabViewV4bodyQrvp",
+          "mangledName": "$s5Gaiwa13GWHomeTabViewV4bodyQrvp",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:5Gaiwa13GWHomeTabViewV4bodyQrvg",
+              "mangledName": "$s5Gaiwa13GWHomeTabViewV4bodyQrvg",
+              "moduleName": "Gaiwa",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GWHomeTabView",
+              "printedName": "Gaiwa.GWHomeTabView",
+              "usr": "s:5Gaiwa13GWHomeTabViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:5Gaiwa13GWHomeTabViewVACycfc",
+          "mangledName": "$s5Gaiwa13GWHomeTabViewVACycfc",
+          "moduleName": "Gaiwa",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:5Gaiwa13GWHomeTabViewV",
+      "mangledName": "$s5Gaiwa13GWHomeTabViewV",
+      "moduleName": "Gaiwa",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Date",
+      "printedName": "Date",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "dateFromGMT",
+          "printedName": "dateFromGMT()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Date",
+              "printedName": "Foundation.Date",
+              "usr": "s:10Foundation4DateV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10Foundation4DateV5GaiwaE11dateFromGMTACyF",
+          "mangledName": "$s10Foundation4DateV5GaiwaE11dateFromGMTACyF",
+          "moduleName": "Gaiwa",
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "currentDayzeroOfDate",
+          "printedName": "currentDayzeroOfDate()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Date",
+              "printedName": "Foundation.Date",
+              "usr": "s:10Foundation4DateV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10Foundation4DateV5GaiwaE016currentDayzeroOfB0ACyF",
+          "mangledName": "$s10Foundation4DateV5GaiwaE016currentDayzeroOfB0ACyF",
+          "moduleName": "Gaiwa",
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:10Foundation4DateV",
+      "mangledName": "$s10Foundation4DateV",
+      "moduleName": "Foundation",
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "ReferenceConvertible",
+          "printedName": "ReferenceConvertible",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ReferenceType",
+              "printedName": "ReferenceType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSDate",
+                  "printedName": "Foundation.NSDate",
+                  "usr": "c:objc(cs)NSDate"
+                }
+              ]
+            }
+          ],
+          "usr": "s:10Foundation20ReferenceConvertibleP",
+          "mangledName": "$s10Foundation20ReferenceConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Comparable",
+          "printedName": "Comparable",
+          "usr": "s:SL",
+          "mangledName": "$sSL"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomReflectable",
+          "printedName": "CustomReflectable",
+          "usr": "s:s17CustomReflectableP",
+          "mangledName": "$ss17CustomReflectableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ObjectiveCBridgeable",
+          "printedName": "_ObjectiveCBridgeable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_ObjectiveCType",
+              "printedName": "_ObjectiveCType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSDate",
+                  "printedName": "Foundation.NSDate",
+                  "usr": "c:objc(cs)NSDate"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s21_ObjectiveCBridgeableP",
+          "mangledName": "$ss21_ObjectiveCBridgeableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_CustomPlaygroundQuickLookable",
+          "printedName": "_CustomPlaygroundQuickLookable",
+          "usr": "s:s30_CustomPlaygroundQuickLookableP",
+          "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

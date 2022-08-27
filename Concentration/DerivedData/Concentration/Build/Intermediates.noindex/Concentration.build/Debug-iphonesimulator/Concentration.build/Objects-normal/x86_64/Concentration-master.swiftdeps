@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
+build_start_time: [1645691301, 134118080]
+build_end_time: [1645691314, 17707824]
+inputs:
+  "/Users/xmly/Desktop/Program/Swift/Concentration/Card.swift": [1627441594, 624198198]
+  "/Users/xmly/Desktop/Program/Swift/Concentration/Concentration.swift": [1627462733, 567933320]
+  "/Users/xmly/Desktop/Program/Swift/Concentration/Concentration/AppDelegate.swift": [1627461152, 290434360]
+  "/Users/xmly/Desktop/Program/Swift/Concentration/Concentration/SceneDelegate.swift": [1625211843, 94480514]
+  "/Users/xmly/Desktop/Program/Swift/Concentration/Concentration/ViewController.swift": [1627522218, 528090476]

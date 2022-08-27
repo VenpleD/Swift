@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>0F76A623-289B-4006-AAD6-64880DC80077</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0F76A623-289B-4006-AAD6-64880DC80077.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GaiWa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GaiWa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build GaiWa</string>
+			<key>timeStartedRecording</key>
+			<real>668082755.48242605</real>
+			<key>timeStoppedRecording</key>
+			<real>668082758.36416698</real>
+			<key>title</key>
+			<string>Build GaiWa</string>
+			<key>uniqueIdentifier</key>
+			<string>0F76A623-289B-4006-AAD6-64880DC80077</string>
+		</dict>
+		<key>66EC491C-E307-4142-93FB-42F366408197</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>66EC491C-E307-4142-93FB-42F366408197.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GaiWa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GaiWa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build GaiWa</string>
+			<key>timeStartedRecording</key>
+			<real>668081555.23129904</real>
+			<key>timeStoppedRecording</key>
+			<real>668081556.46201599</real>
+			<key>title</key>
+			<string>Build GaiWa</string>
+			<key>uniqueIdentifier</key>
+			<string>66EC491C-E307-4142-93FB-42F366408197</string>
+		</dict>
+		<key>F65471EC-06FE-4364-99F1-BAC058EC5B05</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F65471EC-06FE-4364-99F1-BAC058EC5B05.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GaiWa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GaiWa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build GaiWa</string>
+			<key>timeStartedRecording</key>
+			<real>668081641.70788598</real>
+			<key>timeStoppedRecording</key>
+			<real>668081658.63622105</real>
+			<key>title</key>
+			<string>Build GaiWa</string>
+			<key>uniqueIdentifier</key>
+			<string>F65471EC-06FE-4364-99F1-BAC058EC5B05</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

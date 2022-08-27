@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>5EAB660F-1BCC-4C85-ABFF-12EA13915B38</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5EAB660F-1BCC-4C85-ABFF-12EA13915B38.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GaiWa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GaiWa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run GaiWa</string>
+			<key>timeStartedRecording</key>
+			<real>668082758.37346804</real>
+			<key>timeStoppedRecording</key>
+			<real>668083103.960711</real>
+			<key>title</key>
+			<string>Run GaiWa</string>
+			<key>uniqueIdentifier</key>
+			<string>5EAB660F-1BCC-4C85-ABFF-12EA13915B38</string>
+		</dict>
+		<key>6CC9E4B6-010D-4CB0-8158-90CB0360676E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6CC9E4B6-010D-4CB0-8158-90CB0360676E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GaiWa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GaiWa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run GaiWa</string>
+			<key>timeStartedRecording</key>
+			<real>668081658.704229</real>
+			<key>timeStoppedRecording</key>
+			<real>668082755.552333</real>
+			<key>title</key>
+			<string>Run GaiWa</string>
+			<key>uniqueIdentifier</key>
+			<string>6CC9E4B6-010D-4CB0-8158-90CB0360676E</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

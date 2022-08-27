@@ -1,0 +1,3435 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FastFoodMenuItem",
+      "printedName": "FastFoodMenuItem",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "hamburger",
+          "printedName": "hamburger",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Concentration.FastFoodMenuItem.Type) -> (Swift.Int) -> Concentration.FastFoodMenuItem",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Swift.Int) -> Concentration.FastFoodMenuItem",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FastFoodMenuItem",
+                      "printedName": "Concentration.FastFoodMenuItem",
+                      "usr": "s:13Concentration16FastFoodMenuItemO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(numberOfPatties: Swift.Int)",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Int",
+                          "printedName": "Swift.Int",
+                          "usr": "s:Si"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "Concentration.FastFoodMenuItem.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FastFoodMenuItem",
+                      "printedName": "Concentration.FastFoodMenuItem",
+                      "usr": "s:13Concentration16FastFoodMenuItemO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:13Concentration16FastFoodMenuItemO9hamburgeryACSi_tcACmF",
+          "mangledName": "$s13Concentration16FastFoodMenuItemO9hamburgeryACSi_tcACmF",
+          "moduleName": "Concentration",
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "fries",
+          "printedName": "fries",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Concentration.FastFoodMenuItem.Type) -> (Concentration.FryOrderSize) -> Concentration.FastFoodMenuItem",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Concentration.FryOrderSize) -> Concentration.FastFoodMenuItem",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FastFoodMenuItem",
+                      "printedName": "Concentration.FastFoodMenuItem",
+                      "usr": "s:13Concentration16FastFoodMenuItemO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(size: Concentration.FryOrderSize)",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "FryOrderSize",
+                          "printedName": "Concentration.FryOrderSize",
+                          "usr": "s:13Concentration12FryOrderSizeO"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "Concentration.FastFoodMenuItem.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FastFoodMenuItem",
+                      "printedName": "Concentration.FastFoodMenuItem",
+                      "usr": "s:13Concentration16FastFoodMenuItemO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:13Concentration16FastFoodMenuItemO5friesyAcA12FryOrderSizeO_tcACmF",
+          "mangledName": "$s13Concentration16FastFoodMenuItemO5friesyAcA12FryOrderSizeO_tcACmF",
+          "moduleName": "Concentration",
+          "fixedbinaryorder": 1
+        },
+        {
+          "kind": "Var",
+          "name": "drink",
+          "printedName": "drink",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Concentration.FastFoodMenuItem.Type) -> (Swift.String, Swift.Int) -> Concentration.FastFoodMenuItem",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Swift.String, Swift.Int) -> Concentration.FastFoodMenuItem",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FastFoodMenuItem",
+                      "printedName": "Concentration.FastFoodMenuItem",
+                      "usr": "s:13Concentration16FastFoodMenuItemO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(Swift.String, ounces: Swift.Int)",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Int",
+                          "printedName": "Swift.Int",
+                          "usr": "s:Si"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "Concentration.FastFoodMenuItem.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FastFoodMenuItem",
+                      "printedName": "Concentration.FastFoodMenuItem",
+                      "usr": "s:13Concentration16FastFoodMenuItemO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:13Concentration16FastFoodMenuItemO5drinkyACSS_SitcACmF",
+          "mangledName": "$s13Concentration16FastFoodMenuItemO5drinkyACSS_SitcACmF",
+          "moduleName": "Concentration",
+          "fixedbinaryorder": 2
+        },
+        {
+          "kind": "Var",
+          "name": "cookie",
+          "printedName": "cookie",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Concentration.FastFoodMenuItem.Type) -> Concentration.FastFoodMenuItem",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FastFoodMenuItem",
+                  "printedName": "Concentration.FastFoodMenuItem",
+                  "usr": "s:13Concentration16FastFoodMenuItemO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "Concentration.FastFoodMenuItem.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FastFoodMenuItem",
+                      "printedName": "Concentration.FastFoodMenuItem",
+                      "usr": "s:13Concentration16FastFoodMenuItemO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:13Concentration16FastFoodMenuItemO6cookieyA2CmF",
+          "mangledName": "$s13Concentration16FastFoodMenuItemO6cookieyA2CmF",
+          "moduleName": "Concentration",
+          "fixedbinaryorder": 3
+        },
+        {
+          "kind": "Function",
+          "name": "isIncludedInSpecialOrder",
+          "printedName": "isIncludedInSpecialOrder(number:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13Concentration16FastFoodMenuItemO24isIncludedInSpecialOrder6numberSbSi_tF",
+          "mangledName": "$s13Concentration16FastFoodMenuItemO24isIncludedInSpecialOrder6numberSbSi_tF",
+          "moduleName": "Concentration",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "calories",
+          "printedName": "calories",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13Concentration16FastFoodMenuItemO8caloriesSivp",
+          "mangledName": "$s13Concentration16FastFoodMenuItemO8caloriesSivp",
+          "moduleName": "Concentration",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13Concentration16FastFoodMenuItemO8caloriesSivg",
+              "mangledName": "$s13Concentration16FastFoodMenuItemO8caloriesSivg",
+              "moduleName": "Concentration",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "switchToBeingACookie",
+          "printedName": "switchToBeingACookie()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13Concentration16FastFoodMenuItemO20switchToBeingACookieyyF",
+          "mangledName": "$s13Concentration16FastFoodMenuItemO20switchToBeingACookieyyF",
+          "moduleName": "Concentration",
+          "funcSelfKind": "Mutating"
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:13Concentration16FastFoodMenuItemO",
+      "mangledName": "$s13Concentration16FastFoodMenuItemO",
+      "moduleName": "Concentration",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FryOrderSize",
+      "printedName": "FryOrderSize",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "large",
+          "printedName": "large",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Concentration.FryOrderSize.Type) -> Concentration.FryOrderSize",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FryOrderSize",
+                  "printedName": "Concentration.FryOrderSize",
+                  "usr": "s:13Concentration12FryOrderSizeO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "Concentration.FryOrderSize.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FryOrderSize",
+                      "printedName": "Concentration.FryOrderSize",
+                      "usr": "s:13Concentration12FryOrderSizeO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:13Concentration12FryOrderSizeO5largeyA2CmF",
+          "mangledName": "$s13Concentration12FryOrderSizeO5largeyA2CmF",
+          "moduleName": "Concentration",
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "small",
+          "printedName": "small",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Concentration.FryOrderSize.Type) -> Concentration.FryOrderSize",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FryOrderSize",
+                  "printedName": "Concentration.FryOrderSize",
+                  "usr": "s:13Concentration12FryOrderSizeO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "Concentration.FryOrderSize.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FryOrderSize",
+                      "printedName": "Concentration.FryOrderSize",
+                      "usr": "s:13Concentration12FryOrderSizeO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:13Concentration12FryOrderSizeO5smallyA2CmF",
+          "mangledName": "$s13Concentration12FryOrderSizeO5smallyA2CmF",
+          "moduleName": "Concentration",
+          "fixedbinaryorder": 1
+        },
+        {
+          "kind": "Function",
+          "name": "__derived_enum_equals",
+          "printedName": "__derived_enum_equals(_:_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FryOrderSize",
+              "printedName": "Concentration.FryOrderSize",
+              "usr": "s:13Concentration12FryOrderSizeO"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FryOrderSize",
+              "printedName": "Concentration.FryOrderSize",
+              "usr": "s:13Concentration12FryOrderSizeO"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13Concentration12FryOrderSizeO21__derived_enum_equalsySbAC_ACtFZ",
+          "mangledName": "$s13Concentration12FryOrderSizeO21__derived_enum_equalsySbAC_ACtFZ",
+          "moduleName": "Concentration",
+          "static": true,
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "hash",
+          "printedName": "hash(into:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Hasher",
+              "printedName": "Swift.Hasher",
+              "paramValueOwnership": "InOut",
+              "usr": "s:s6HasherV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13Concentration12FryOrderSizeO4hash4intoys6HasherVz_tF",
+          "mangledName": "$s13Concentration12FryOrderSizeO4hash4intoys6HasherVz_tF",
+          "moduleName": "Concentration",
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "hashValue",
+          "printedName": "hashValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13Concentration12FryOrderSizeO9hashValueSivp",
+          "mangledName": "$s13Concentration12FryOrderSizeO9hashValueSivp",
+          "moduleName": "Concentration",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13Concentration12FryOrderSizeO9hashValueSivg",
+              "mangledName": "$s13Concentration12FryOrderSizeO9hashValueSivg",
+              "moduleName": "Concentration",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:13Concentration12FryOrderSizeO",
+      "mangledName": "$s13Concentration12FryOrderSizeO",
+      "moduleName": "Concentration",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ViewController",
+      "printedName": "ViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_game",
+          "printedName": "$__lazy_storage_$_game",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Concentration.Concentration?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Concentration",
+                  "printedName": "Concentration.Concentration",
+                  "usr": "s:13ConcentrationAAV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13Concentration14ViewControllerC22$__lazy_storage_$_game33_D60B4CA75CA6C1BDECCA79199488FB68LLA2AVSgvp",
+          "mangledName": "$s13Concentration14ViewControllerC22$__lazy_storage_$_game33_D60B4CA75CA6C1BDECCA79199488FB68LLA2AVSgvp",
+          "moduleName": "Concentration",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "flipCount",
+          "printedName": "flipCount",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13Concentration14ViewControllerC9flipCountSivp",
+          "mangledName": "$s13Concentration14ViewControllerC9flipCountSivp",
+          "moduleName": "Concentration",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "SetterAccess",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13Concentration14ViewControllerC9flipCountSivg",
+              "mangledName": "$s13Concentration14ViewControllerC9flipCountSivg",
+              "moduleName": "Concentration",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "flipCountLabel",
+          "printedName": "flipCountLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UILabel?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13Concentration14ViewControllerC14flipCountLabel33_D60B4CA75CA6C1BDECCA79199488FB68LLSo7UILabelCSgvp",
+          "mangledName": "$s13Concentration14ViewControllerC14flipCountLabel33_D60B4CA75CA6C1BDECCA79199488FB68LLSo7UILabelCSgvp",
+          "moduleName": "Concentration",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBOutlet",
+            "ReferenceOwnership",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 2,
+          "ownership": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "CardButtons",
+          "printedName": "CardButtons",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "[UIKit.UIButton]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[UIKit.UIButton]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIButton",
+                      "printedName": "UIKit.UIButton",
+                      "usr": "c:objc(cs)UIButton"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13Concentration14ViewControllerC11CardButtons33_D60B4CA75CA6C1BDECCA79199488FB68LLSaySo8UIButtonCGSgvp",
+          "mangledName": "$s13Concentration14ViewControllerC11CardButtons33_D60B4CA75CA6C1BDECCA79199488FB68LLSaySo8UIButtonCGSgvp",
+          "moduleName": "Concentration",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBOutlet",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Concentration@objc(cs)ViewController(im)viewDidLoad",
+          "mangledName": "$s13Concentration14ViewControllerC11viewDidLoadyyF",
+          "moduleName": "Concentration",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "someProperty",
+          "printedName": "someProperty",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "((Swift.String) -> ())?",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Swift.String) -> ()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13Concentration14ViewControllerC12somePropertyySScSgvp",
+          "mangledName": "$s13Concentration14ViewControllerC12somePropertyySScSgvp",
+          "moduleName": "Concentration",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "((Swift.String) -> ())?",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Swift.String) -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13Concentration14ViewControllerC12somePropertyySScSgvg",
+              "mangledName": "$s13Concentration14ViewControllerC12somePropertyySScSgvg",
+              "moduleName": "Concentration",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "((Swift.String) -> ())?",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Swift.String) -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13Concentration14ViewControllerC12somePropertyySScSgvs",
+              "mangledName": "$s13Concentration14ViewControllerC12somePropertyySScSgvs",
+              "moduleName": "Concentration",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13Concentration14ViewControllerC12somePropertyySScSgvM",
+              "mangledName": "$s13Concentration14ViewControllerC12somePropertyySScSgvM",
+              "moduleName": "Concentration",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "testReplace",
+          "printedName": "testReplace()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13Concentration14ViewControllerC11testReplaceyyF",
+          "mangledName": "$s13Concentration14ViewControllerC11testReplaceyyF",
+          "moduleName": "Concentration",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testEnum",
+          "printedName": "testEnum()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13Concentration14ViewControllerC8testEnumyyF",
+          "mangledName": "$s13Concentration14ViewControllerC8testEnumyyF",
+          "moduleName": "Concentration",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testOptionals",
+          "printedName": "testOptionals()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13Concentration14ViewControllerC13testOptionalsyyF",
+          "mangledName": "$s13Concentration14ViewControllerC13testOptionalsyyF",
+          "moduleName": "Concentration",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "emojiChoices",
+          "printedName": "emojiChoices",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13Concentration14ViewControllerC12emojiChoices33_D60B4CA75CA6C1BDECCA79199488FB68LLSSvp",
+          "mangledName": "$s13Concentration14ViewControllerC12emojiChoices33_D60B4CA75CA6C1BDECCA79199488FB68LLSSvp",
+          "moduleName": "Concentration",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 5,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "emoji",
+          "printedName": "emoji",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Concentration.Card : Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Card",
+                  "printedName": "Concentration.Card",
+                  "usr": "s:13Concentration4CardV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13Concentration14ViewControllerC5emoji33_D60B4CA75CA6C1BDECCA79199488FB68LLSDyAA4CardVSSGvp",
+          "mangledName": "$s13Concentration14ViewControllerC5emoji33_D60B4CA75CA6C1BDECCA79199488FB68LLSDyAA4CardVSSGvp",
+          "moduleName": "Concentration",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 6,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ViewController",
+              "printedName": "Concentration.ViewController",
+              "usr": "c:@M@Concentration@objc(cs)ViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Concentration@objc(cs)ViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s13Concentration14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "Concentration",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Concentration.ViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ViewController",
+                  "printedName": "Concentration.ViewController",
+                  "usr": "c:@M@Concentration@objc(cs)ViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Concentration@objc(cs)ViewController(im)initWithCoder:",
+          "mangledName": "$s13Concentration14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "Concentration",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Concentration@objc(cs)ViewController",
+      "mangledName": "$s13Concentration14ViewControllerC",
+      "moduleName": "Concentration",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Moveable",
+      "printedName": "Moveable",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "move",
+          "printedName": "move(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGPoint",
+              "printedName": "CoreGraphics.CGPoint",
+              "usr": "c:@S@CGPoint"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13Concentration8MoveableP4move2toySo7CGPointV_tF",
+          "mangledName": "$s13Concentration8MoveableP4move2toySo7CGPointV_tF",
+          "moduleName": "Concentration",
+          "genericSig": "<τ_0_0 where τ_0_0 : Concentration.Moveable>",
+          "sugared_genericSig": "<Self where Self : Concentration.Moveable>",
+          "protocolReq": true,
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:13Concentration8MoveableP",
+      "mangledName": "$s13Concentration8MoveableP",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Car",
+      "printedName": "Car",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "move",
+          "printedName": "move(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGPoint",
+              "printedName": "CoreGraphics.CGPoint",
+              "usr": "c:@S@CGPoint"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13Concentration3CarC4move2toySo7CGPointV_tF",
+          "mangledName": "$s13Concentration3CarC4move2toySo7CGPointV_tF",
+          "moduleName": "Concentration",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "changeOil",
+          "printedName": "changeOil()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13Concentration3CarC9changeOilyyF",
+          "mangledName": "$s13Concentration3CarC9changeOilyyF",
+          "moduleName": "Concentration",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Car",
+              "printedName": "Concentration.Car",
+              "usr": "s:13Concentration3CarC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13Concentration3CarCACycfc",
+          "mangledName": "$s13Concentration3CarCACycfc",
+          "moduleName": "Concentration",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:13Concentration3CarC",
+      "mangledName": "$s13Concentration3CarC",
+      "moduleName": "Concentration",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Moveable",
+          "printedName": "Moveable",
+          "usr": "s:13Concentration8MoveableP",
+          "mangledName": "$s13Concentration8MoveableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Shape",
+      "printedName": "Shape",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "move",
+          "printedName": "move(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGPoint",
+              "printedName": "CoreGraphics.CGPoint",
+              "usr": "c:@S@CGPoint"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13Concentration5ShapeV4move2toySo7CGPointV_tF",
+          "mangledName": "$s13Concentration5ShapeV4move2toySo7CGPointV_tF",
+          "moduleName": "Concentration",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "draw",
+          "printedName": "draw()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13Concentration5ShapeV4drawyyF",
+          "mangledName": "$s13Concentration5ShapeV4drawyyF",
+          "moduleName": "Concentration",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Shape",
+              "printedName": "Concentration.Shape",
+              "usr": "s:13Concentration5ShapeV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13Concentration5ShapeVACycfc",
+          "mangledName": "$s13Concentration5ShapeVACycfc",
+          "moduleName": "Concentration",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13Concentration5ShapeV",
+      "mangledName": "$s13Concentration5ShapeV",
+      "moduleName": "Concentration",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Moveable",
+          "printedName": "Moveable",
+          "usr": "s:13Concentration8MoveableP",
+          "mangledName": "$s13Concentration8MoveableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Concentration",
+      "printedName": "Concentration",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "cards",
+          "printedName": "cards",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Concentration.Card]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Card",
+                  "printedName": "Concentration.Card",
+                  "usr": "s:13Concentration4CardV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13ConcentrationAAV5cardsSayAA4CardVGvp",
+          "mangledName": "$s13ConcentrationAAV5cardsSayAA4CardVGvp",
+          "moduleName": "Concentration",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Concentration.Card]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Card",
+                      "printedName": "Concentration.Card",
+                      "usr": "s:13Concentration4CardV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13ConcentrationAAV5cardsSayAA4CardVGvg",
+              "mangledName": "$s13ConcentrationAAV5cardsSayAA4CardVGvg",
+              "moduleName": "Concentration",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Concentration.Card]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Card",
+                      "printedName": "Concentration.Card",
+                      "usr": "s:13Concentration4CardV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13ConcentrationAAV5cardsSayAA4CardVGvs",
+              "mangledName": "$s13ConcentrationAAV5cardsSayAA4CardVGvs",
+              "moduleName": "Concentration",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13ConcentrationAAV5cardsSayAA4CardVGvM",
+              "mangledName": "$s13ConcentrationAAV5cardsSayAA4CardVGvM",
+              "moduleName": "Concentration",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "indexOfOneAndOnlyFaceUpCard",
+          "printedName": "indexOfOneAndOnlyFaceUpCard",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Int?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13ConcentrationAAV27indexOfOneAndOnlyFaceUpCardSiSgvp",
+          "mangledName": "$s13ConcentrationAAV27indexOfOneAndOnlyFaceUpCardSiSgvp",
+          "moduleName": "Concentration",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Int?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13ConcentrationAAV27indexOfOneAndOnlyFaceUpCardSiSgvg",
+              "mangledName": "$s13ConcentrationAAV27indexOfOneAndOnlyFaceUpCardSiSgvg",
+              "moduleName": "Concentration",
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Int?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13ConcentrationAAV27indexOfOneAndOnlyFaceUpCardSiSgvs",
+              "mangledName": "$s13ConcentrationAAV27indexOfOneAndOnlyFaceUpCardSiSgvs",
+              "moduleName": "Concentration",
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13ConcentrationAAV27indexOfOneAndOnlyFaceUpCardSiSgvM",
+              "mangledName": "$s13ConcentrationAAV27indexOfOneAndOnlyFaceUpCardSiSgvM",
+              "moduleName": "Concentration",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "chooseCard",
+          "printedName": "chooseCard(at:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13ConcentrationAAV10chooseCard2atySi_tF",
+          "mangledName": "$s13ConcentrationAAV10chooseCard2atySi_tF",
+          "moduleName": "Concentration",
+          "funcSelfKind": "Mutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(numberOfPairsOfCards:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Concentration",
+              "printedName": "Concentration.Concentration",
+              "usr": "s:13ConcentrationAAV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13ConcentrationAAV013numberOfPairsC5CardsABSi_tcfc",
+          "mangledName": "$s13ConcentrationAAV013numberOfPairsC5CardsABSi_tcfc",
+          "moduleName": "Concentration",
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13ConcentrationAAV",
+      "mangledName": "$s13ConcentrationAAV",
+      "moduleName": "Concentration",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Card",
+      "printedName": "Card",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "hash",
+          "printedName": "hash(into:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Hasher",
+              "printedName": "Swift.Hasher",
+              "paramValueOwnership": "InOut",
+              "usr": "s:s6HasherV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13Concentration4CardV4hash4intoys6HasherVz_tF",
+          "mangledName": "$s13Concentration4CardV4hash4intoys6HasherVz_tF",
+          "moduleName": "Concentration",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "==",
+          "printedName": "==(_:_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Card",
+              "printedName": "Concentration.Card",
+              "usr": "s:13Concentration4CardV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Card",
+              "printedName": "Concentration.Card",
+              "usr": "s:13Concentration4CardV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13Concentration4CardV2eeoiySbAC_ACtFZ",
+          "mangledName": "$s13Concentration4CardV2eeoiySbAC_ACtFZ",
+          "moduleName": "Concentration",
+          "static": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "isFaceUp",
+          "printedName": "isFaceUp",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13Concentration4CardV8isFaceUpSbvp",
+          "mangledName": "$s13Concentration4CardV8isFaceUpSbvp",
+          "moduleName": "Concentration",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13Concentration4CardV8isFaceUpSbvg",
+              "mangledName": "$s13Concentration4CardV8isFaceUpSbvg",
+              "moduleName": "Concentration",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13Concentration4CardV8isFaceUpSbvs",
+              "mangledName": "$s13Concentration4CardV8isFaceUpSbvs",
+              "moduleName": "Concentration",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13Concentration4CardV8isFaceUpSbvM",
+              "mangledName": "$s13Concentration4CardV8isFaceUpSbvM",
+              "moduleName": "Concentration",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "isMatched",
+          "printedName": "isMatched",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13Concentration4CardV9isMatchedSbvp",
+          "mangledName": "$s13Concentration4CardV9isMatchedSbvp",
+          "moduleName": "Concentration",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13Concentration4CardV9isMatchedSbvg",
+              "mangledName": "$s13Concentration4CardV9isMatchedSbvg",
+              "moduleName": "Concentration",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13Concentration4CardV9isMatchedSbvs",
+              "mangledName": "$s13Concentration4CardV9isMatchedSbvs",
+              "moduleName": "Concentration",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13Concentration4CardV9isMatchedSbvM",
+              "mangledName": "$s13Concentration4CardV9isMatchedSbvM",
+              "moduleName": "Concentration",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "identifier",
+          "printedName": "identifier",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13Concentration4CardV10identifier33_7C8D3075D459313BF3F960BF56E7B0C6LLSivp",
+          "mangledName": "$s13Concentration4CardV10identifier33_7C8D3075D459313BF3F960BF56E7B0C6LLSivp",
+          "moduleName": "Concentration",
+          "isInternal": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "identifierFactory",
+          "printedName": "identifierFactory",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13Concentration4CardV17identifierFactorySivpZ",
+          "mangledName": "$s13Concentration4CardV17identifierFactorySivpZ",
+          "moduleName": "Concentration",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13Concentration4CardV17identifierFactorySivgZ",
+              "mangledName": "$s13Concentration4CardV17identifierFactorySivgZ",
+              "moduleName": "Concentration",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13Concentration4CardV17identifierFactorySivsZ",
+              "mangledName": "$s13Concentration4CardV17identifierFactorySivsZ",
+              "moduleName": "Concentration",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13Concentration4CardV17identifierFactorySivMZ",
+              "mangledName": "$s13Concentration4CardV17identifierFactorySivMZ",
+              "moduleName": "Concentration",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "getUniqueIdentifier",
+          "printedName": "getUniqueIdentifier()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13Concentration4CardV19getUniqueIdentifierSiyFZ",
+          "mangledName": "$s13Concentration4CardV19getUniqueIdentifierSiyFZ",
+          "moduleName": "Concentration",
+          "static": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Card",
+              "printedName": "Concentration.Card",
+              "usr": "s:13Concentration4CardV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13Concentration4CardVACycfc",
+          "mangledName": "$s13Concentration4CardVACycfc",
+          "moduleName": "Concentration",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "hashValue",
+          "printedName": "hashValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13Concentration4CardV9hashValueSivp",
+          "mangledName": "$s13Concentration4CardV9hashValueSivp",
+          "moduleName": "Concentration",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13Concentration4CardV9hashValueSivg",
+              "mangledName": "$s13Concentration4CardV9hashValueSivg",
+              "moduleName": "Concentration",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13Concentration4CardV",
+      "mangledName": "$s13Concentration4CardV",
+      "moduleName": "Concentration",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppDelegate",
+      "printedName": "AppDelegate",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:didFinishLaunchingWithOptions:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "LaunchOptionsKey",
+                      "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                      "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Concentration@objc(cs)AppDelegate(im)application:didFinishLaunchingWithOptions:",
+          "mangledName": "$s13Concentration11AppDelegateC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0j6LaunchI3KeyaypGSgtF",
+          "moduleName": "Concentration",
+          "isOpen": true,
+          "objc_name": "application:didFinishLaunchingWithOptions:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:configurationForConnecting:options:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneConfiguration",
+              "printedName": "UIKit.UISceneConfiguration",
+              "usr": "c:objc(cs)UISceneConfiguration"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneSession",
+              "printedName": "UIKit.UISceneSession",
+              "usr": "c:objc(cs)UISceneSession"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionOptions",
+              "printedName": "UIKit.UIScene.ConnectionOptions",
+              "usr": "c:objc(cs)UISceneConnectionOptions"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Concentration@objc(cs)AppDelegate(im)application:configurationForConnectingSceneSession:options:",
+          "mangledName": "$s13Concentration11AppDelegateC11application_26configurationForConnecting7optionsSo20UISceneConfigurationCSo13UIApplicationC_So0I7SessionCSo0I17ConnectionOptionsCtF",
+          "moduleName": "Concentration",
+          "isOpen": true,
+          "objc_name": "application:configurationForConnectingSceneSession:options:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:didDiscardSceneSessions:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Set",
+              "printedName": "Swift.Set<UIKit.UISceneSession>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UISceneSession",
+                  "printedName": "UIKit.UISceneSession",
+                  "usr": "c:objc(cs)UISceneSession"
+                }
+              ],
+              "usr": "s:Sh"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Concentration@objc(cs)AppDelegate(im)application:didDiscardSceneSessions:",
+          "mangledName": "$s13Concentration11AppDelegateC11application_23didDiscardSceneSessionsySo13UIApplicationC_ShySo14UISceneSessionCGtF",
+          "moduleName": "Concentration",
+          "isOpen": true,
+          "objc_name": "application:didDiscardSceneSessions:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppDelegate",
+              "printedName": "Concentration.AppDelegate",
+              "usr": "c:@M@Concentration@objc(cs)AppDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Concentration@objc(cs)AppDelegate(im)init",
+          "mangledName": "$s13Concentration11AppDelegateCACycfc",
+          "moduleName": "Concentration",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13Concentration11AppDelegateC5$mainyyFZ",
+          "mangledName": "$s13Concentration11AppDelegateC5$mainyyFZ",
+          "moduleName": "Concentration",
+          "static": true,
+          "implicit": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Concentration@objc(cs)AppDelegate",
+      "mangledName": "$s13Concentration11AppDelegateC",
+      "moduleName": "Concentration",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "MainType",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIResponder",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "Concentration"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SceneDelegate",
+      "printedName": "SceneDelegate",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "window",
+          "printedName": "window",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIWindow?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIWindow",
+                  "printedName": "UIKit.UIWindow",
+                  "usr": "c:objc(cs)UIWindow"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@Concentration@objc(cs)SceneDelegate(py)window",
+          "mangledName": "$s13Concentration13SceneDelegateC6windowSo8UIWindowCSgvp",
+          "moduleName": "Concentration",
+          "isOpen": true,
+          "objc_name": "window",
+          "declAttributes": [
+            "HasInitialValue",
+            "ObjC",
+            "Custom",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIWindow?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIWindow",
+                      "printedName": "UIKit.UIWindow",
+                      "usr": "c:objc(cs)UIWindow"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@Concentration@objc(cs)SceneDelegate(im)window",
+              "mangledName": "$s13Concentration13SceneDelegateC6windowSo8UIWindowCSgvg",
+              "moduleName": "Concentration",
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "window",
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIWindow?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIWindow",
+                      "printedName": "UIKit.UIWindow",
+                      "usr": "c:objc(cs)UIWindow"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@Concentration@objc(cs)SceneDelegate(im)setWindow:",
+              "mangledName": "$s13Concentration13SceneDelegateC6windowSo8UIWindowCSgvs",
+              "moduleName": "Concentration",
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "setWindow:",
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13Concentration13SceneDelegateC6windowSo8UIWindowCSgvM",
+              "mangledName": "$s13Concentration13SceneDelegateC6windowSo8UIWindowCSgvM",
+              "moduleName": "Concentration",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "scene",
+          "printedName": "scene(_:willConnectTo:options:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneSession",
+              "printedName": "UIKit.UISceneSession",
+              "usr": "c:objc(cs)UISceneSession"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionOptions",
+              "printedName": "UIKit.UIScene.ConnectionOptions",
+              "usr": "c:objc(cs)UISceneConnectionOptions"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Concentration@objc(cs)SceneDelegate(im)scene:willConnectToSession:options:",
+          "mangledName": "$s13Concentration13SceneDelegateC5scene_13willConnectTo7optionsySo7UISceneC_So0I7SessionCSo0I17ConnectionOptionsCtF",
+          "moduleName": "Concentration",
+          "isOpen": true,
+          "objc_name": "scene:willConnectToSession:options:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneDidDisconnect",
+          "printedName": "sceneDidDisconnect(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Concentration@objc(cs)SceneDelegate(im)sceneDidDisconnect:",
+          "mangledName": "$s13Concentration13SceneDelegateC18sceneDidDisconnectyySo7UISceneCF",
+          "moduleName": "Concentration",
+          "isOpen": true,
+          "objc_name": "sceneDidDisconnect:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneDidBecomeActive",
+          "printedName": "sceneDidBecomeActive(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Concentration@objc(cs)SceneDelegate(im)sceneDidBecomeActive:",
+          "mangledName": "$s13Concentration13SceneDelegateC20sceneDidBecomeActiveyySo7UISceneCF",
+          "moduleName": "Concentration",
+          "isOpen": true,
+          "objc_name": "sceneDidBecomeActive:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneWillResignActive",
+          "printedName": "sceneWillResignActive(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Concentration@objc(cs)SceneDelegate(im)sceneWillResignActive:",
+          "mangledName": "$s13Concentration13SceneDelegateC21sceneWillResignActiveyySo7UISceneCF",
+          "moduleName": "Concentration",
+          "isOpen": true,
+          "objc_name": "sceneWillResignActive:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneWillEnterForeground",
+          "printedName": "sceneWillEnterForeground(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Concentration@objc(cs)SceneDelegate(im)sceneWillEnterForeground:",
+          "mangledName": "$s13Concentration13SceneDelegateC24sceneWillEnterForegroundyySo7UISceneCF",
+          "moduleName": "Concentration",
+          "isOpen": true,
+          "objc_name": "sceneWillEnterForeground:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneDidEnterBackground",
+          "printedName": "sceneDidEnterBackground(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Concentration@objc(cs)SceneDelegate(im)sceneDidEnterBackground:",
+          "mangledName": "$s13Concentration13SceneDelegateC23sceneDidEnterBackgroundyySo7UISceneCF",
+          "moduleName": "Concentration",
+          "isOpen": true,
+          "objc_name": "sceneDidEnterBackground:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SceneDelegate",
+              "printedName": "Concentration.SceneDelegate",
+              "usr": "c:@M@Concentration@objc(cs)SceneDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Concentration@objc(cs)SceneDelegate(im)init",
+          "mangledName": "$s13Concentration13SceneDelegateCACycfc",
+          "moduleName": "Concentration",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Concentration@objc(cs)SceneDelegate",
+      "mangledName": "$s13Concentration13SceneDelegateC",
+      "moduleName": "Concentration",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIResponder",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Int",
+      "printedName": "Int",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "arc4random",
+          "printedName": "arc4random",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:Si13ConcentrationE10arc4randomSivp",
+          "mangledName": "$sSi13ConcentrationE10arc4randomSivp",
+          "moduleName": "Concentration",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:Si13ConcentrationE10arc4randomSivg",
+              "mangledName": "$sSi13ConcentrationE10arc4randomSivg",
+              "moduleName": "Concentration",
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:Si",
+      "mangledName": "$sSi",
+      "moduleName": "Swift",
+      "declAttributes": [
+        "Frozen"
+      ],
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "FixedWidthInteger",
+          "printedName": "FixedWidthInteger",
+          "usr": "s:s17FixedWidthIntegerP",
+          "mangledName": "$ss17FixedWidthIntegerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SignedInteger",
+          "printedName": "SignedInteger",
+          "usr": "s:SZ",
+          "mangledName": "$sSZ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ExpressibleByBuiltinIntegerLiteral",
+          "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+          "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+          "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "BinaryInteger",
+          "printedName": "BinaryInteger",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Words",
+              "printedName": "Words",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Words",
+                  "printedName": "Swift.Int.Words",
+                  "usr": "s:Si5WordsV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sz",
+          "mangledName": "$sSz"
+        },
+        {
+          "kind": "Conformance",
+          "name": "LosslessStringConvertible",
+          "printedName": "LosslessStringConvertible",
+          "usr": "s:s25LosslessStringConvertibleP",
+          "mangledName": "$ss25LosslessStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SignedNumeric",
+          "printedName": "SignedNumeric",
+          "usr": "s:s13SignedNumericP",
+          "mangledName": "$ss13SignedNumericP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Numeric",
+          "printedName": "Numeric",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Magnitude",
+              "printedName": "Magnitude",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UInt",
+                  "printedName": "Swift.UInt",
+                  "usr": "s:Su"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sj",
+          "mangledName": "$sSj"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Strideable",
+          "printedName": "Strideable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Stride",
+              "printedName": "Stride",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sx",
+          "mangledName": "$sSx"
+        },
+        {
+          "kind": "Conformance",
+          "name": "AdditiveArithmetic",
+          "printedName": "AdditiveArithmetic",
+          "usr": "s:s18AdditiveArithmeticP",
+          "mangledName": "$ss18AdditiveArithmeticP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByIntegerLiteral",
+          "printedName": "ExpressibleByIntegerLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "IntegerLiteralType",
+              "printedName": "IntegerLiteralType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s27ExpressibleByIntegerLiteralP",
+          "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Comparable",
+          "printedName": "Comparable",
+          "usr": "s:SL",
+          "mangledName": "$sSL"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomReflectable",
+          "printedName": "CustomReflectable",
+          "usr": "s:s17CustomReflectableP",
+          "mangledName": "$ss17CustomReflectableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_CustomPlaygroundQuickLookable",
+          "printedName": "_CustomPlaygroundQuickLookable",
+          "usr": "s:s30_CustomPlaygroundQuickLookableP",
+          "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "MirrorPath",
+          "printedName": "MirrorPath",
+          "usr": "s:s10MirrorPathP",
+          "mangledName": "$ss10MirrorPathP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_HasCustomAnyHashableRepresentation",
+          "printedName": "_HasCustomAnyHashableRepresentation",
+          "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+          "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SIMDScalar",
+          "printedName": "SIMDScalar",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "SIMDMaskScalar",
+              "printedName": "SIMDMaskScalar",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD2Storage",
+              "printedName": "SIMD2Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD2Storage",
+                  "printedName": "Swift.Int.SIMD2Storage",
+                  "usr": "s:Si12SIMD2StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD4Storage",
+              "printedName": "SIMD4Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD4Storage",
+                  "printedName": "Swift.Int.SIMD4Storage",
+                  "usr": "s:Si12SIMD4StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD8Storage",
+              "printedName": "SIMD8Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD8Storage",
+                  "printedName": "Swift.Int.SIMD8Storage",
+                  "usr": "s:Si12SIMD8StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD16Storage",
+              "printedName": "SIMD16Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD16Storage",
+                  "printedName": "Swift.Int.SIMD16Storage",
+                  "usr": "s:Si13SIMD16StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD32Storage",
+              "printedName": "SIMD32Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD32Storage",
+                  "printedName": "Swift.Int.SIMD32Storage",
+                  "usr": "s:Si13SIMD32StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD64Storage",
+              "printedName": "SIMD64Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD64Storage",
+                  "printedName": "Swift.Int.SIMD64Storage",
+                  "usr": "s:Si13SIMD64StorageV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s10SIMDScalarP",
+          "mangledName": "$ss10SIMDScalarP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ObjectiveCBridgeable",
+          "printedName": "_ObjectiveCBridgeable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_ObjectiveCType",
+              "printedName": "_ObjectiveCType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSNumber",
+                  "printedName": "Foundation.NSNumber",
+                  "usr": "c:objc(cs)NSNumber"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s21_ObjectiveCBridgeableP",
+          "mangledName": "$ss21_ObjectiveCBridgeableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_FormatSpecifiable",
+          "printedName": "_FormatSpecifiable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_Arg",
+              "printedName": "_Arg",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int64",
+                  "printedName": "Swift.Int64",
+                  "usr": "s:s5Int64V"
+                }
+              ]
+            }
+          ],
+          "usr": "s:10Foundation18_FormatSpecifiableP",
+          "mangledName": "$s10Foundation18_FormatSpecifiableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Collection",
+      "printedName": "Collection",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "oneAndOnly",
+          "printedName": "oneAndOnly",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "τ_0_0.Element?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DependentMember",
+                  "printedName": "τ_0_0.Element"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:Sl13ConcentrationE10oneAndOnly7ElementQzSgvp",
+          "mangledName": "$sSl13ConcentrationE10oneAndOnly7ElementQzSgvp",
+          "moduleName": "Concentration",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "τ_0_0.Element?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DependentMember",
+                      "printedName": "τ_0_0.Element"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:Sl13ConcentrationE10oneAndOnly7ElementQzSgvg",
+              "mangledName": "$sSl13ConcentrationE10oneAndOnly7ElementQzSgvg",
+              "moduleName": "Concentration",
+              "genericSig": "<τ_0_0 where τ_0_0 : Swift.Collection>",
+              "sugared_genericSig": "<Self where Self : Swift.Collection>",
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:Sl",
+      "mangledName": "$sSl",
+      "moduleName": "Swift",
+      "genericSig": "<τ_0_0 : Swift.Sequence, τ_0_0.Element == τ_0_0.SubSequence.Element, τ_0_0.Index : Swift.Comparable, τ_0_0.Index == τ_0_0.Indices.Element, τ_0_0.Indices : Swift.Collection, τ_0_0.Indices == τ_0_0.Indices.SubSequence, τ_0_0.SubSequence : Swift.Collection, τ_0_0.SubSequence == τ_0_0.SubSequence.SubSequence, τ_0_0.Indices.Element == τ_0_0.Indices.Index, τ_0_0.Indices.Index == τ_0_0.SubSequence.Index, τ_0_0.SubSequence.Index == τ_0_0.Indices.Indices.Element, τ_0_0.Indices.Indices.Element == τ_0_0.Indices.Indices.Index, τ_0_0.Indices.Indices.Index == τ_0_0.SubSequence.Indices.Element, τ_0_0.SubSequence.Indices.Element == τ_0_0.SubSequence.Indices.Index, τ_0_0.SubSequence.Indices.Index == τ_0_0.Indices.Indices.Indices.Element, τ_0_0.Indices.Indices.Indices.Element == τ_0_0.Indices.Indices.Indices.Index, τ_0_0.Indices.Indices.Indices.Index == τ_0_0.SubSequence.Indices.Indices.Element, τ_0_0.SubSequence.Indices.Indices.Element == τ_0_0.SubSequence.Indices.Indices.Index, τ_0_0.SubSequence.Indices.Indices.Index == τ_0_0.SubSequence.Indices.Indices.Indices.Element, τ_0_0.SubSequence.Indices.Indices.Indices.Element == τ_0_0.SubSequence.Indices.Indices.Indices.Index>",
+      "sugared_genericSig": "<Self : Swift.Sequence, Self.Element == Self.SubSequence.Element, Self.Index : Swift.Comparable, Self.Index == Self.Indices.Element, Self.Indices : Swift.Collection, Self.Indices == Self.Indices.SubSequence, Self.SubSequence : Swift.Collection, Self.SubSequence == Self.SubSequence.SubSequence, Self.Indices.Element == Self.Indices.Index, Self.Indices.Index == Self.SubSequence.Index, Self.SubSequence.Index == Self.Indices.Indices.Element, Self.Indices.Indices.Element == Self.Indices.Indices.Index, Self.Indices.Indices.Index == Self.SubSequence.Indices.Element, Self.SubSequence.Indices.Element == Self.SubSequence.Indices.Index, Self.SubSequence.Indices.Index == Self.Indices.Indices.Indices.Element, Self.Indices.Indices.Indices.Element == Self.Indices.Indices.Indices.Index, Self.Indices.Indices.Indices.Index == Self.SubSequence.Indices.Indices.Element, Self.SubSequence.Indices.Indices.Element == Self.SubSequence.Indices.Indices.Index, Self.SubSequence.Indices.Indices.Index == Self.SubSequence.Indices.Indices.Indices.Element, Self.SubSequence.Indices.Indices.Indices.Element == Self.SubSequence.Indices.Indices.Indices.Index>",
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sequence",
+          "printedName": "Sequence",
+          "usr": "s:ST",
+          "mangledName": "$sST"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}
