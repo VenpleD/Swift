@@ -1,3 +1,0 @@
-Target dependency graph (2 targets)
-GaiWa in GaiWa, no dependencies
-GaiWa in GaiWa, no dependencies
